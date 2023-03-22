@@ -15,6 +15,9 @@
         &_nav{
             display: none;
         }
+        &_navmob{
+            display: inline;
+        }
         &_text1{
             padding-top:  48px;
             font-style: normal;
@@ -64,6 +67,17 @@
                 &-imgmob{
                     display: inline;
                 }
+        }
+    }
+    .teachers{
+        &__exp{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
         }
     }
 }
