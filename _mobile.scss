@@ -80,4 +80,53 @@
             color: #000000;
         }
     }
+    .programm{
+        &__item{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #FFFFFF;
+            &_col-color1{
+                    grid-column: span 6;
+            }
+            &_col-color11{
+                grid-column: span 6;
+            }
+            &_col-color2{
+                display: none;
+            }
+            &_col_navik{
+                grid-column: span 8;
+            }
+            &_col_checker{
+                grid-column: span 4;
+            }
+            &_col_bar{
+                padding-top: 48px;
+                grid-column: span 12;
+                padding-left: 0%;
+                &-black{
+                    margin-bottom: 9px;
+                }
+            }
+            &_col-color2mob{
+                    display: block;
+                    grid-column: span 12;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 130%;
+                    letter-spacing: -0.05px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #FFFFFF;
+                    padding-bottom: 8px;
+            }
+            &_button{
+                width: 620px;
+            }
+        }
+    }
 }

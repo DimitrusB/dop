@@ -298,8 +298,6 @@ ul li:before {
                 letter-spacing: -0.05px;
                 font-feature-settings: 'pnum' on, 'lnum' on;
                 color: #FFFFFF;
-                display: flex;
-                justify-content: flex-end;
             }
             &-color2{
                 grid-column: span 6;
@@ -311,6 +309,9 @@ ul li:before {
                 font-feature-settings: 'pnum' on, 'lnum' on;
                 color: #FFFFFF;
                 padding-left: 40px;
+            }
+            &-color2mob{
+                display: none;
             }
             &_navik{
                 grid-column: span 4;
