@@ -1,0 +1,1346 @@
+%light {
+        position: absolute;
+        height: 23px;
+        background: #4D4D4D;
+        border-radius: 5px;
+        z-index: 10;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        text-align: right;
+        letter-spacing: -0.05px;
+    }
+%schema-text {
+    width: 260px;
+    height: 260px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: myfont, sans-serif;
+}
+@font-face {
+    font-family: "myfont";
+    src: url("fonts/stratosskyengwebregular.woff") format('woff');
+  }
+  ul {
+    list-style: none;
+}
+
+ul li:before {
+    content:  "—";
+    position: relative;
+    left:     -18px;
+}
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+.header__top{
+    background-color: #AD61FF;
+    min-height: 1032px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -2;
+    &_up{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 12px;
+            align-items: center;
+    }
+    &_nav{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            gap: 24px;
+            text-decoration: none;
+            &-text{
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #FFFFFF;
+            }
+        }
+    &_navmob{
+        display: none;
+    
+    }
+    &_text1{
+        font-style: normal;
+        font-weight: 400;
+        position: relative;
+        font-size: 68px;
+        line-height: 100%;
+        letter-spacing: -0.6px;
+        font-feature-settings: "pnum" on, "lnum" on;
+        color: #FFFFFF;
+        padding-top: 60px;
+        z-index: 3;
+    }
+    &_text2{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 260px;
+        line-height: 60%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &_text11{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 68px;
+        line-height: 100%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+    }
+    &_zero{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 43px;
+        gap: 32px;
+        align-content: space-around;
+        align-items: baseline;
+    }
+    &_analiz{
+        width: 848px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 135%;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        padding-top: 27px;
+        &-imgmob{
+            display: none;
+        }
+    }
+}
+.emez{
+    position: absolute;
+    transform: rotate(-3deg);
+    z-index: -1;
+    left: 202px;
+    top: 23px;
+    opacity: 0.8;
+}
+.teachers{
+    min-height: 935px;
+    &__exp{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 100%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+        padding-top: 56px;
+    }
+    &_cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding-top: 39px;
+    }
+    &_other{
+        width: 600px;
+        height: 92px;
+        display: flex;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.15px;
+        color: #FF6D00;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 16px;
+        margin-top: 73px;
+        border: 1px solid #FF6D00;
+    border-radius: 10px;
+    }
+    &__card{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 32px;
+        padding-top: 39px;
+    
+        &_item{
+            width: 368px;
+            height: 220px;
+        }
+        &_name{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 105%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &_spec{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            opacity: 0.3;
+            
+        }
+        &_who{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-top: 16px;
+        }
+        &_link{
+            padding-top: 24px ;
+
+            &-link{
+                letter-spacing: -0.05px;
+                color: #FF6D00; 
+                text-decoration: none;
+            }
+        }
+    }
+}
+.programm{
+    margin-top: 60px;
+    min-height: 1148px;
+    background-color: #000000;
+    &__item{
+        padding-top: 56px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 100%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        &-isled{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            color: #FFFFFF;
+            padding-top: 24px;
+        }
+        &_chekbox{
+            position: absolute;
+        }
+        &_button{
+            width: 627px;
+            height: 76px;
+            border: 1px solid #FF6D00;
+            border-radius: 10px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: -0.15px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #FF6D00;
+            background-color: #000000;
+            margin-top: 48px;
+        }
+        &_col{
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            padding-top: 40px;
+        
+            &-color1{
+                grid-column: span 3;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 130%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #FFFFFF;
+            }
+            &-color11{
+                grid-column: span 3;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 130%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #FFFFFF;
+                display: flex;
+                justify-content: flex-end;
+            }
+            &-color2{
+                grid-column: span 6;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 130%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #FFFFFF;
+                padding-left: 40px;
+            }
+            &_navik{
+                grid-column: span 4;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #FFFFFF;
+                margin-top: 16px;
+                &-pad{
+                    padding-bottom: 16px;
+                }
+            }
+            &_checker{
+                grid-column: span 2;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-content: flex-start;
+                margin-top: 16px;
+            }
+            &_bar{
+                padding-left: 40px;
+                grid-column: span 6;
+                margin-top: 27px;
+           
+                &-black{
+                    max-width: 624px;
+                    height: 23px;
+                    background: #1A1A1A;
+                    border-radius: 5px;
+                    margin-bottom: 36px;
+                }
+                &-light{
+                    @extend %light;
+                    width: 523.94px;
+                }
+                &-light1{
+                    @extend %light;
+                    width: 193.18px;
+                }
+                &-light2{
+                    @extend %light;
+                    width: 230.7px;
+                }
+                &-light3{
+                    @extend %light;
+                    width: 250.16px;
+                }
+                &-light4{
+                    @extend %light;
+                    width: 205.68px;
+                }
+                &-light5{
+                    @extend %light;
+                    width: 93.11px;
+                }
+                &-light6{
+                    @extend %light;
+                    width: 55.59px;
+                }
+                &-light7{
+                    @extend %light;
+                    width: 18.07px;
+                }
+            }
+        }
+    }
+}
+.about__kurs{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: -0.6px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #00AEFA;
+    padding-top: 56px;
+    padding-bottom: 24px;
+    &_item{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &_text{
+        height: 215px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 135%;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+        }
+    &_schema{
+        padding-top: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-img{
+            position: absolute;
+            z-index: -10;
+        }
+
+        &-text{
+            @extend %schema-text;
+            color: #D27714;
+        }
+        &-text1{
+            @extend %schema-text;
+            color: #1797CC;
+        }
+        &-text2{
+            @extend %schema-text;
+            color: #14A34C;
+        }
+        &-text3{
+            @extend %schema-text;
+            color: #A339C0;
+        }
+}
+    &_kons{
+        max-width: 1160px;
+        background: #ECECEC;
+        border-radius: 20px;
+        padding-left: 40px;
+        padding-top: 32px;
+        margin-top: 67px;
+        padding-bottom: 32px;
+        
+        &-text1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+            padding-top: 40px;
+        }
+        &-text2{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            color: #000000;
+        }
+    }
+    &_form{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        gap: 8px;
+        padding-top: 32px;
+
+    
+    &-input{
+        width: 264px;
+        height: 48px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        padding-left: 12px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 145%;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+    }
+    &-button{
+        width: 264px;
+        height: 48px;
+        background: #FCDE00;
+        border-radius: 8px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+    }
+    &-sign{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 145%;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+        opacity: 0.4;
+    }
+}
+
+}
+.how__about{
+    padding-top: 120px;
+    &_text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 100%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+    }
+    &_img{
+        padding-top: 64px;
+        &-six{
+            position: relative;
+            top: -190px;
+            left: 15px;
+        }
+    }
+    &_item{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        &-content{
+            width: 360px;
+            &-text{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &-text1{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 145%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+        }
+    }
+    &_home{
+        padding-top: 56px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        &-content{
+            width: 360px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            &-text{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &-text1{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 145%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &-tetx2{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #AD61FF;
+            }
+        }
+        &-img{
+            width: 760px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            height: 650px;
+
+            &-2{
+                position: relative;
+                top: -191px;
+                left: -85px;
+            }
+        }
+    }
+
+}
+.how__about_feedback{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 56px;
+
+    &-content{
+        max-width: 360px;
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 21px;
+        &-text1{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-text2{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-text3{
+            max-width: 252px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #00A665;
+        }
+        &-crown{
+            position: relative;
+            right: 36px;
+            padding-bottom: 16px;
+            padding-left: 16px;
+        }
+    }
+}
+.how__about_kurs{
+    background: #F9EBFF;
+    border-radius: 20px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 64px;
+    padding-top: 32px;
+    padding-bottom: 48px;
+    margin-bottom: 120px;
+    &-text1{
+        max-width: 312px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+    }
+    &-text2{
+        max-width: 688px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 135%;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+    }
+}
+.grid_form{
+    grid-template-columns: repeat(15, 1fr);
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    justify-items: stretch;
+    margin-top: 48px;
+}
+.how__about_teachers{
+    &-content{
+        grid-column: span 11;
+        gap: 56px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 760px;
+        padding-bottom: 150px;
+        
+    }
+    &_card{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: flex-start;
+    
+        &_item{ 
+            max-width: 560px;
+        }
+        &_name{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &_spec{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            opacity: 0.3;
+        }
+        &_who{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-top: 16px;
+            padding-bottom: 24px;
+        }
+        &_link{
+
+            &-link{
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 130%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #FF6D00;
+           }
+        }
+
+    }
+    &-form{
+        grid-column: span 4;
+        max-width: 360px;
+        background: #ECECEC;
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        &-text1{
+            max-width: 280px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-text2{
+            max-width: 280px;
+            margin-top: 16px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-text3{
+            max-width: 231px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+    }
+    &-form-s{
+        padding-top: 24px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding-bottom: 16px;
+    }
+}
+.how__about_work{
+    background: #F9EBFF;
+    padding-bottom: 64px;
+    &-text{
+        max-width: 957px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 100%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #6000C7;
+        padding-top: 56px;
+        margin-left: 23px;
+    }
+    &-content{
+        padding-top: 48px;
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        max-height: 490px;
+        &-text{
+            max-width: 620px;
+        }
+        &-img{
+            position: relative;
+            top: 15px;
+        }
+        &-img1{
+            position: relative;
+            top: -165px;
+            left: -60px;
+        }
+        &-text1{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-text2{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+    }
+    &-stud{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 960px;
+        left: 120px;
+        top: 11454px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        &-content{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-top: 32px;
+            padding-bottom: 48px;
+            gap: 40px;
+        }
+        &-text{
+            max-width: 220px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            color: #000000;
+            padding-bottom: 135px;
+        }
+        &-text2{
+            max-width: 220px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            color: #000000;
+            padding-bottom: 690px;
+        }
+        &-textp{
+            max-width: 220px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            color: #6000C7;
+        }
+        &-textright{
+            margin-bottom: 16px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-textrightp{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #6000C7;
+            margin-top: 32px;
+        }
+        &-textright1{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-right{
+            max-width: 559px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        &-textrightdiv{
+            margin-bottom: 32px;
+        }
+    }
+}
+.how__about_metod{
+    margin-top: 153px;
+    height: 675px;
+    padding-bottom: 30px;
+    &_metods{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    &-1{
+        background: #F9EBFF;
+        border-radius: 20px;
+        width: 660px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 40px;
+        padding-top: 24px;
+    }
+    &-text{
+        max-width: 585px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 100%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+        padding-bottom: 38px;
+    }
+    &-spisok{
+
+        max-width: 528px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #6000C7;
+    }
+    &-2{
+        max-width: 475px;
+        max-height: 680px;
+        position: relative;
+        bottom: 290px;
+        left: 60px;
+        &-img1{
+            position: relative;
+            left: 80px;
+        }
+        &-img2{
+            position: relative;
+            top: -45px;
+            right: -80px;
+        }
+        &-img3{
+            position: relative;      
+            bottom: 182px;
+        }
+        &-img4{
+            position: relative;
+            right: 10px;
+            bottom: 30px;
+        }
+        &-img5{
+            position: relative;
+            bottom: 386px;
+            left: -65px;
+        }
+        &-img6{
+            position: relative;
+            bottom: 520px;
+            left: 157px;
+        }
+    }
+
+}
+.how__about_kurses{
+    padding-top: 48px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas: 
+    "b a"
+    "c a";
+        &-items{
+            grid-area: a;
+            width: 560px;
+            max-height: 459px;
+            display: grid;
+            grid-template-areas:
+             "d e";
+            justify-content: start;
+            padding-bottom: 20px;
+            margin-left: 40px;
+        }
+        &-items3{
+            display: flex;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            align-items: flex-start;
+        }
+        &-img31{
+            position: relative;
+            top: -10px;
+            left: 280px;
+        }
+
+        &-items11{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 130%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #AD61FF;
+        }
+        &-items12{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-items21{
+            grid-area: d;
+            color: #000000;
+            opacity: 0.4;
+            width: 100px;
+        }
+        &-img32{
+            grid-area: f;
+            margin-left: 40px;
+        }
+        &-items22{
+            grid-area: e;
+            padding-left: 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+
+}
+.about__kurs_otziv{
+        background-color: #F9EBFF;
+        padding-top: 56px;
+        margin-top: 64px;
+
+    &-items{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 100%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #6000C7;
+        margin-bottom: 48px;
+    }
+    &-1{
+        max-width: 460px ;
+    }
+    &-11{
+        display: flex;
+        gap: 18px;
+        flex-wrap: wrap;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+    }
+    &-12{
+        display: flex;
+        gap: 18px;
+        flex-wrap: wrap;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 135%;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+    }
+    &-main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 88px;
+    }
+    &-mainright{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 48px;
+    }
+    &-mainleft{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+.price{
+    padding-top: 120px;
+    background: #AD61FF;
+    padding-bottom: 151px;
+    &__main{
+        max-width: 560px;
+        margin-left: 320px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        &_text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 72px;
+            line-height: 100%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-left:36px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+        &_text1{
+            grid-template-areas:  
+            "a b"
+            "c d";
+            display: grid;
+            justify-content: space-around;
+            padding-bottom: 32px;
+        }
+        &_text11{
+            max-width: 291px;
+            grid-area: a;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 130%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &_text12{
+            max-width: 291px;
+            grid-area: c;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;  
+        }
+        &_text13{
+            grid-area: b;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            
+        }
+        &-text14{
+            grid-area: d;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+
+        }
+    }
+    &__form{
+        grid-column: span 4;
+        max-width: 480px;
+        background:#FFFFFF;
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-left: 40px;
+        padding-bottom: 40px;
+            &-text1{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 130%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+            &-text2{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 130%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+        &-text3{
+            max-width: 480px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-form-s{
+            padding-top: 24px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 12px;
+            padding-bottom: 16px;
+           
+        }
+        &-input{
+            max-width: 480px;
+            height: 64px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+            padding-left: 12px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -0.1px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #04121B;
+        }
+        &-button{
+            max-width: 480px;
+            height: 64px;
+            background: #FCDE00;
+            border-radius: 8px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            text-align: center;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+    } 
+}
+.del{
+    position: relative;
+}
+.del::before{
+    border-bottom: 3px solid  #AD61FF;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+    transform: rotate(15deg);
+    /*transform: matrix(0.98, 0.18, 0.18, 1.02, -3, -1); как вариант*/
+}
+@import 'mobile';
