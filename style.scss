@@ -517,10 +517,9 @@ ul li:before {
 .how__about{
     padding-top: 120px;
     &_comandmain{
+        max-height: 500px;
         background: #F9EBFF;
         border-radius: 20px;
-        max-width: 1160px;
-        padding-left: 20px;
 
     }
     &_text{
@@ -533,7 +532,7 @@ ul li:before {
         color: #000000;
         padding-bottom: 64px;
         &-comandmain{
-            padding-top: 64px;
+            padding-top: 32px;
             flex-wrap: wrap;
             align-content: center;
             align-items: flex-start;
@@ -551,6 +550,7 @@ ul li:before {
             letter-spacing: -0.05px;
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
+            padding-bottom: 16px;
         }
         &-comand2{
             font-style: normal;
@@ -566,8 +566,8 @@ ul li:before {
 
         &-six{
             position: relative;
-            top: -190px;
-            left: 15px;
+            top: -160px;
+            left: 35px;
         }
     }
     &_imgmob{
@@ -580,9 +580,11 @@ ul li:before {
     &_imgall{
     display: flex;
     align-items: center;
-    justify-content: center;       
+    justify-content: center;      
+    flex-direction: column; 
 }
     &_item{
+        padding-top: 56px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -606,6 +608,12 @@ ul li:before {
                 letter-spacing: -0.05px;
                 font-feature-settings: 'pnum' on, 'lnum' on;
                 color: #000000;
+            }
+            &-textmob{
+                display:none;
+            }
+            &-text1mob{
+                display: none;
             }
         }
     }
@@ -638,7 +646,7 @@ ul li:before {
                 font-feature-settings: 'pnum' on, 'lnum' on;
                 color: #000000;
             }
-            &-tetx2{
+            &-text2{
                 font-style: normal;
                 font-weight: 400;
                 font-size: 24px;
