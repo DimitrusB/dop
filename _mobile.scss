@@ -153,7 +153,43 @@
             flex-wrap: wrap;
             flex-direction: row;
             gap: 37px;
+            justify-content: space-evenly;
+        }
+        &_kons{
+            display: none;
         }
     }
-    
+    .how__about{
+        &_text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &_img{
+            display: none;
+            &-six{
+                display: none;
+            }
+        }
+        &_imgmob{
+            display: inline;
+            box-shadow: 0px 7px 16px -4px rgba(0, 0, 0, 0.2);
+            border-radius: 5px; 
+        }
+        &_imgplay{
+            display: none;
+        }
+        &_comandmain{
+            background-color: #F9EBFF;
+            width: auto;
+            padding-left: 0;
+            border:none;
+            border-radius: 0;
+        }
+
+    }
 }

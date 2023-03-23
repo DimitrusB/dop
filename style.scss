@@ -516,6 +516,13 @@ ul li:before {
 }
 .how__about{
     padding-top: 120px;
+    &_comandmain{
+        background: #F9EBFF;
+        border-radius: 20px;
+        max-width: 1160px;
+        padding-left: 20px;
+
+    }
     &_text{
         font-style: normal;
         font-weight: 400;
@@ -524,15 +531,57 @@ ul li:before {
         letter-spacing: -0.6px;
         font-feature-settings: 'pnum' on, 'lnum' on;
         color: #000000;
+        padding-bottom: 64px;
+        &-comandmain{
+            padding-top: 64px;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: flex-start;
+            justify-content: center;
+            display: flex;
+        }
+        &-comand{
+            max-width: 360px;
+        }
+        &-comand1{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-comand2{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
     }
     &_img{
-        padding-top: 64px;
+
         &-six{
             position: relative;
             top: -190px;
             left: 15px;
         }
     }
+    &_imgmob{
+        display: none;
+    }
+    &_imgplay{
+        position: absolute;
+        z-index: 10;
+    }
+    &_imgall{
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+}
     &_item{
         display: flex;
         flex-wrap: wrap;

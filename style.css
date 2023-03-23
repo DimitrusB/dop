@@ -505,6 +505,12 @@ ul li:before {
 .how__about {
   padding-top: 120px;
 }
+.how__about_comandmain {
+  background: #F9EBFF;
+  border-radius: 20px;
+  max-width: 1160px;
+  padding-left: 20px;
+}
 .how__about_text {
   font-style: normal;
   font-weight: 400;
@@ -513,14 +519,53 @@ ul li:before {
   letter-spacing: -0.6px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+  padding-bottom: 64px;
 }
-.how__about_img {
+.how__about_text-comandmain {
   padding-top: 64px;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+}
+.how__about_text-comand {
+  max-width: 360px;
+}
+.how__about_text-comand1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.how__about_text-comand2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
 }
 .how__about_img-six {
   position: relative;
   top: -190px;
   left: 15px;
+}
+.how__about_imgmob {
+  display: none;
+}
+.how__about_imgplay {
+  position: absolute;
+  z-index: 10;
+}
+.how__about_imgall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .how__about_item {
   display: flex;
@@ -1470,5 +1515,39 @@ ul li:before {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 37px;
+    justify-content: space-evenly;
+  }
+  .about__kurs_kons {
+    display: none;
+  }
+  .how__about_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_img {
+    display: none;
+  }
+  .how__about_img-six {
+    display: none;
+  }
+  .how__about_imgmob {
+    display: inline;
+    box-shadow: 0px 7px 16px -4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  .how__about_imgplay {
+    display: none;
+  }
+  .how__about_comandmain {
+    background-color: #F9EBFF;
+    width: auto;
+    padding-left: 0;
+    border: none;
+    border-radius: 0;
   }
 }/*# sourceMappingURL=style.css.map */
