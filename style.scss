@@ -401,7 +401,7 @@ ul li:before {
         justify-content: space-between;
     }
     &_text{
-        height: 215px;
+        min-height: 215px;
         font-style: normal;
         font-weight: 400;
         font-size: 32px;
