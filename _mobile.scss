@@ -126,7 +126,34 @@
             }
             &_button{
                 width: 620px;
+                &-mob{
+                    display: none;
+                }
             }
         }
     }
+    .about__kurs{
+        font-style: normal;
+        display: inline-block;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 135%;
+        letter-spacing: -0.05px;
+        font-feature-settings: "pnum" on, "lnum" on;
+        color: #00AEFA;
+        &_skyeng{
+            width: 40%;
+
+        }
+        &_text{
+            padding-bottom: 26px;
+        }
+        &_item{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 37px;
+        }
+    }
+    
 }

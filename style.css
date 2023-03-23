@@ -398,7 +398,7 @@ ul li:before {
   justify-content: space-between;
 }
 .about__kurs_text {
-  height: 215px;
+  min-height: 215px;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -1445,5 +1445,30 @@ ul li:before {
   }
   .programm__item_button {
     width: 620px;
+  }
+  .programm__item_button-mob {
+    display: none;
+  }
+  .about__kurs {
+    font-style: normal;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #00AEFA;
+  }
+  .about__kurs_skyeng {
+    width: 40%;
+  }
+  .about__kurs_text {
+    padding-bottom: 26px;
+  }
+  .about__kurs_item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 37px;
   }
 }/*# sourceMappingURL=style.css.map */
