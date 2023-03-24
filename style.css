@@ -1719,6 +1719,7 @@ ul li:before {
     margin-top: 40px;
     justify-content: flex-start;
     margin-bottom: 88px;
+    border-radius: 0%;
   }
   .how__about_kurs-text1 {
     max-width: 420px;
