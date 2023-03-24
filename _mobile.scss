@@ -10,6 +10,7 @@
         width: 47%;
         height: 72%;
     }
+
     .header__top{
         min-height: 736px;
         &_nav{
@@ -169,6 +170,7 @@
             letter-spacing: -0.05px;
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
+            padding-bottom: 35px;
             &-comandmain{
                 flex-direction: column-reverse;
             }
@@ -334,6 +336,7 @@
         &_kurs{
             margin-top: 40px;
             justify-content: flex-start;
+            margin-bottom: 88px;
             &-text1{
                 max-width: 420px;
                 padding-bottom: 24px;
@@ -360,5 +363,45 @@
                 background-color: #E8BEFC;
             }
         }
+        &_teachers{
+            &_card_item{
+                width: 436px;
+            }
+            &-form{
+                width: 640px;
+                border-radius: 0%;
+            }
+            
+            &_card{
+                gap: 24px;
+            }
+            &-content{
+                padding-bottom: 40px;
+            }
+            &_card_name{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 125%;
+                letter-spacing: -0.6px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &_card_who{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+        }
+    }
+    .grid_form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 0%;
     }
 }

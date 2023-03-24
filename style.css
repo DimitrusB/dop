@@ -1557,6 +1557,7 @@ ul li:before {
     letter-spacing: -0.05px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
+    padding-bottom: 35px;
   }
   .how__about_text-comandmain {
     flex-direction: column-reverse;
@@ -1717,6 +1718,7 @@ ul li:before {
   .how__about_kurs {
     margin-top: 40px;
     justify-content: flex-start;
+    margin-bottom: 88px;
   }
   .how__about_kurs-text1 {
     max-width: 420px;
@@ -1742,5 +1744,42 @@ ul li:before {
   }
   .how__about_kurs-textcol {
     background-color: #E8BEFC;
+  }
+  .how__about_teachers_card_item {
+    width: 436px;
+  }
+  .how__about_teachers-form {
+    width: 640px;
+    border-radius: 0%;
+  }
+  .how__about_teachers_card {
+    gap: 24px;
+  }
+  .how__about_teachers-content {
+    padding-bottom: 40px;
+  }
+  .how__about_teachers_card_name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_teachers_card_who {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .grid_form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 0%;
   }
 }/*# sourceMappingURL=style.css.map */
