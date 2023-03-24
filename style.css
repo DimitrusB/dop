@@ -624,6 +624,9 @@ ul li:before {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
 }
+.how__about_home-content_textmob {
+  display: none;
+}
 .how__about_home-content-text1 {
   font-style: normal;
   font-weight: 400;
@@ -633,6 +636,9 @@ ul li:before {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
 }
+.how__about_home-content-text1mob {
+  display: none;
+}
 .how__about_home-content-text2 {
   font-style: normal;
   font-weight: 400;
@@ -641,6 +647,9 @@ ul li:before {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #AD61FF;
+}
+.how__about_home-content-text2mob {
+  display: none;
 }
 .how__about_home-img {
   width: 760px;
@@ -677,6 +686,9 @@ ul li:before {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+.how__about_feedback-content-text1mob {
+  display: none;
 }
 .how__about_feedback-content-text2 {
   font-style: normal;
@@ -734,6 +746,12 @@ ul li:before {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+.how__about_kurs-textcol {
+  background-color: #E8BEFC;
+}
+.how__about_kurs-text2mob {
+  display: none;
 }
 
 .grid_form {
@@ -1597,5 +1615,132 @@ ul li:before {
     letter-spacing: -0.05px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
+  }
+  .how__about_home {
+    flex-direction: column-reverse;
+  }
+  .how__about_home-text {
+    display: none;
+  }
+  .how__about_home-content {
+    padding-top: 24px;
+    width: 460px;
+  }
+  .how__about_home-content-text {
+    display: none;
+  }
+  .how__about_home-content-textmob {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_home-content-text1 {
+    display: none;
+  }
+  .how__about_home-content-text1mob {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_home-content-text2 {
+    display: none;
+  }
+  .how__about_home-content-text2mob {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #AD61FF;
+  }
+  .how__about_home-img {
+    width: auto;
+    height: 512px;
+  }
+  .how__about_home-img-1 {
+    width: 540.05px;
+    height: 349.16px;
+  }
+  .how__about_home-img-2 {
+    width: 540.05px;
+    height: 349.16px;
+  }
+  .how__about_feedback-img {
+    width: 620px;
+    height: 505px;
+  }
+  .how__about_feedback-crown {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+  }
+  .how__about_feedback-content {
+    max-width: 380px;
+  }
+  .how__about_feedback-content-text1 {
+    display: none;
+  }
+  .how__about_feedback-content-text1mob {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_feedback-content-text3 {
+    width: 140px;
+    text-align: center;
+  }
+  .how__about_feedback-content-crown {
+    position: inherit;
+    padding-left: 0%;
+  }
+  .how__about_feedback_items {
+    display: flex;
+  }
+  .how__about_kurs {
+    margin-top: 40px;
+    justify-content: flex-start;
+  }
+  .how__about_kurs-text1 {
+    max-width: 420px;
+    padding-bottom: 24px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+  }
+  .how__about_kurs-text2 {
+    display: none;
+  }
+  .how__about_kurs-text2mob {
+    display: inline;
+    max-width: 688px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_kurs-textcol {
+    background-color: #E8BEFC;
   }
 }/*# sourceMappingURL=style.css.map */

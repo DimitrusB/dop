@@ -637,6 +637,9 @@ ul li:before {
                 font-feature-settings: 'pnum' on, 'lnum' on;
                 color: #000000;
             }
+            &_textmob{
+                display: none;
+            }
             &-text1{
                 font-style: normal;
                 font-weight: 400;
@@ -646,6 +649,9 @@ ul li:before {
                 font-feature-settings: 'pnum' on, 'lnum' on;
                 color: #000000;
             }
+            &-text1mob{
+                display: none;
+            }
             &-text2{
                 font-style: normal;
                 font-weight: 400;
@@ -654,6 +660,9 @@ ul li:before {
                 letter-spacing: -0.05px;
                 font-feature-settings: 'pnum' on, 'lnum' on;
                 color: #AD61FF;
+            }
+            &-text2mob{
+                display: none;
             }
         }
         &-img{
@@ -693,6 +702,9 @@ ul li:before {
             letter-spacing: -0.05px;
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
+        }
+        &-text1mob{
+            display: none;
         }
         &-text2{
             font-style: normal;
@@ -750,6 +762,12 @@ ul li:before {
         letter-spacing: -0.05px;
         font-feature-settings: 'pnum' on, 'lnum' on;
         color: #000000;
+    }
+    &-textcol{
+        background-color: #E8BEFC;
+    }
+    &-text2mob{
+        display: none;
     }
 }
 .grid_form{
