@@ -429,6 +429,7 @@
             }
         }
         &_work{
+            padding-bottom: 48px;
         &-text{
             font-style: normal;
             font-weight: 400;
@@ -486,6 +487,7 @@
         }
         &-stud-content{
             gap:20px;
+            padding-bottom: 40px;
         }
         &-stud-right{
             width: 378px;
@@ -507,6 +509,74 @@
             margin-top: 0;
         }
     }
+        &_metod{
+            margin-top: 35px;
+            &-text{
+                width: 300px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+                padding-bottom: 32px;
+            }
+            &-2{
+                bottom: 780px;
+                left: 352px;
+                &-img1{
+                    height:auto ;
+                    width: 154.04px;
+                    left: 80px;
+                }
+                &-img2{
+                    height: auto;
+                    width: 165.59px;
+                    top: 95px;
+                    right: 64px;
+                }
+                &-img3{
+                    height:auto ;
+                    width: 86.99px;
+                    bottom: -149px;
+                    right: 262px;
+                }
+                &-img4{
+                    height:auto ;
+                    width: 84.36px;
+                    right: -160px;
+                    bottom: -3px;
+                }
+                &-img5{
+                    height:auto ;
+                    width: 197.1px;
+                    bottom: -52px;
+                    left: -65px;
+                }
+                &-img6{
+                    height:auto ;
+                    width: 102.22px;
+                    bottom: -44px;
+                    left: -136px;
+                }
+            }
+            
+        }
+        &_kurses{
+            justify-content: start;
+            &-items12{
+                font-size: 28px;
+            }
+            &-items3{
+                display: none;                
+            }
+            &-items{
+                width: 380px;
+                margin-left: 20px;
+            }
+            &-items1{
+                width: 220px;
+            }
+        }
 
     }
     .grid_form{
