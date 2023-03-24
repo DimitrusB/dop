@@ -915,6 +915,12 @@ ul li:before {
   top: -165px;
   left: -60px;
 }
+.how__about_work-content-img1mob {
+  display: none;
+}
+.how__about_work-content-img1mobm {
+  display: none;
+}
 .how__about_work-content-text1 {
   font-style: normal;
   font-weight: 400;
@@ -923,6 +929,9 @@ ul li:before {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+.how__about_work-content-text1mob {
+  display: none;
 }
 .how__about_work-content-text2 {
   font-style: normal;
@@ -1808,6 +1817,84 @@ ul li:before {
     letter-spacing: -0.05px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
+  }
+  .how__about_work-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #6000C7;
+  }
+  .how__about_work-content-text1 {
+    width: 540px;
+  }
+  .how__about_work-content {
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .how__about_work-content-img {
+    width: 60px;
+    height: 49px;
+    top: auto;
+  }
+  .how__about_work-content-text2 {
+    padding-top: 64px;
+    width: 249px;
+  }
+  .how__about_work-content-img1 {
+    display: none;
+  }
+  .how__about_work-content-img1mobm {
+    display: block;
+    height: 177px;
+    -webkit-clip-path: inset(-100% 0% 0%);
+            clip-path: inset(-100% 0% 0%);
+  }
+  .how__about_work-content-img1mob {
+    display: inline;
+    width: 270px;
+    height: 485px;
+    position: relative;
+    top: -168px;
+    left: 349px;
+  }
+  .how__about_work-content-text1 {
+    display: none;
+  }
+  .how__about_work-content-text1mob {
+    width: 540px;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_work-stud-content {
+    gap: 20px;
+  }
+  .how__about_work-stud-right {
+    width: 378px;
+    gap: 24px;
+  }
+  .how__about_work-stud-textright {
+    width: 378px;
+  }
+  .how__about_work-stud-textright1 {
+    width: 378px;
+  }
+  .how__about_work-stud-textrightdiv {
+    margin-bottom: 8px;
+  }
+  .how__about_work-stud-text2 {
+    padding-bottom: 834px;
+  }
+  .how__about_work-stud-textrightp {
+    margin-top: 0;
   }
   .grid_form {
     display: flex;

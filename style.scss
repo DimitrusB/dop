@@ -936,6 +936,12 @@ ul li:before {
             top: -165px;
             left: -60px;
         }
+        &-img1mob{
+            display: none
+        }
+        &-img1mobm{
+            display: none;
+        }
         &-text1{
             font-style: normal;
             font-weight: 400;
@@ -944,6 +950,9 @@ ul li:before {
             letter-spacing: -0.05px;
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
+        }
+        &-text1mob{
+            display:none
         }
         &-text2{
             font-style: normal;

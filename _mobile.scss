@@ -428,6 +428,86 @@
                 color: #000000;
             }
         }
+        &_work{
+        &-text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #6000C7;
+        }
+        &-content-text1{
+            width: 540px;
+        }
+        &-content{
+            flex-direction: column;
+            align-content: space-between;
+            &-img{
+                width: 60px;
+                height: 49px;
+                top: auto;
+            }
+            &-text2{
+                padding-top: 64px;
+                width: 249px;
+            }
+            &-img1{
+                display: none;
+            }
+            &-img1mobm{
+                display: block;
+                height: 177px;
+                clip-path: inset(-100% 0% 0%);
+            }
+            &-img1mob{
+                display: inline;
+                width: 270px;
+                height: 485px;
+                position: relative;
+                top: -168px;
+                left: 349px;
+            }
+            &-text1{
+                display: none;
+            }
+            &-text1mob{
+                width: 540px;
+                display: block;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+        }
+        &-stud-content{
+            gap:20px;
+        }
+        &-stud-right{
+            width: 378px;
+            gap: 24px;
+        }
+        &-stud-textright{
+            width: 378px;
+        }
+        &-stud-textright1{
+            width: 378px;
+        }
+        &-stud-textrightdiv{
+            margin-bottom: 8px;
+        }
+        &-stud-text2{
+            padding-bottom: 834px;
+        }
+        &-stud-textrightp{
+            margin-top: 0;
+        }
+    }
+
     }
     .grid_form{
         display: flex;
