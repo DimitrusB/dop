@@ -847,7 +847,7 @@ ul li:before {
     }
     &-form{
         grid-column: span 4;
-        max-width: 360px;
+        width: 360px;
         background: #ECECEC;
         border-radius: 20px;
         display: flex;
@@ -856,7 +856,7 @@ ul li:before {
         justify-content: center;
         align-content: center;
         &-text1{
-            max-width: 280px;
+            width: 280px;
             font-style: normal;
             font-weight: 400;
             font-size: 32px;
@@ -866,7 +866,7 @@ ul li:before {
             color: #000000;
         }
         &-text2{
-            max-width: 280px;
+            width: 280px;
             margin-top: 16px;
             font-style: normal;
             font-weight: 400;
@@ -875,6 +875,9 @@ ul li:before {
             letter-spacing: -0.05px;
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
+        }
+        &-text2mob{
+            display: none;
         }
         &-text3{
             max-width: 231px;

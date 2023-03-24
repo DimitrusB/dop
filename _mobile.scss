@@ -338,6 +338,7 @@
             justify-content: flex-start;
             margin-bottom: 88px;
             border-radius:0%;
+
             &-text1{
                 max-width: 420px;
                 padding-bottom: 24px;
@@ -368,11 +369,40 @@
             &_card_item{
                 width: 436px;
             }
-            &-form{
-                width: 640px;
-                border-radius: 0%;
+            &-form-s{
+                padding-top: 32px;
+                padding-bottom: 32px;
             }
-            
+            &-form{
+                width: 100%;
+                border-radius: 0%;
+                align-items: center;
+                &-text1{
+                    padding-top: 32px;
+                    width: 560px;
+                }
+                &-text2mob{
+                    display: inline;
+                    width: 560px;
+                    margin-top: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 130%;
+                    letter-spacing: -0.05px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #000000;
+                    }
+                &-text2{
+                    display: none;
+                    }
+                    &-text3{
+                        padding-bottom: 32px;
+                        opacity: 0.4;
+                        max-width: 400px;
+                    }
+            }
+
             &_card{
                 gap: 24px;
             }
@@ -404,5 +434,11 @@
         flex-wrap: wrap;
         flex-direction: column;
         margin-top: 0%;
+    }
+    .about__kurs_form-input{
+        width: 560px;
+    }   
+    .about__kurs_form-button{
+        width: 100%;
     }
 }
