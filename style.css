@@ -1241,7 +1241,7 @@ ul li:before {
   padding-bottom: 151px;
 }
 .price__main {
-  max-width: 560px;
+  width: 560px;
   margin-left: 320px;
   background: #FFFFFF;
   border-radius: 20px;
@@ -1385,6 +1385,120 @@ ul li:before {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+
+.question {
+  padding-bottom: 80px;
+}
+.question__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.question__content_main {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.question__items {
+  padding-top: 64px;
+  padding-bottom: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 115%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.question__items_text {
+  width: 460px;
+  padding-right: 140px;
+  padding-bottom: 40px;
+}
+.question__items_text-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.question__items_text-2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.footer__up {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 24px;
+}
+.footer__down {
+  background-color: #AD61FF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+.footer__content_up {
+  display: flex;
+  align-items: center;
+}
+.footer__content_up1 {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.footer__content_down {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+.footer__content_down1 {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+.footer__href_up {
+  display: flex;
+  gap: 16px;
+}
+.footer__href_down {
+  display: flex;
+  gap: 16px;
 }
 
 .del {
@@ -1960,11 +2074,47 @@ ul li:before {
     display: none;
   }
   .how__about_kurses-items {
-    width: 380px;
+    max-width: 380px;
+    width: auto;
     margin-left: 20px;
   }
   .how__about_kurses-items1 {
     width: 220px;
+  }
+  .about__kurs_otziv-items {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135%;
+  }
+  .about__kurs_otziv-1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+  }
+  .about__kurs_otziv-main {
+    gap: 64px;
+    padding-bottom: 72px;
+  }
+  .about__kurs_otziv-mainleft {
+    gap: 64px;
+  }
+  .about__kurs_otziv-12 {
+    gap: 16px;
+  }
+  .about__kurs_otziv-11 {
+    gap: 16px;
+  }
+  .price {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .price__main {
+    margin-left: 0;
   }
   .grid_form {
     display: flex;

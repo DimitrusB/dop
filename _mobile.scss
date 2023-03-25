@@ -570,7 +570,8 @@
                 display: none;                
             }
             &-items{
-                width: 380px;
+                max-width: 380px;
+                width: auto;
                 margin-left: 20px;
             }
             &-items1{
@@ -578,6 +579,44 @@
             }
         }
 
+    }
+    .about__kurs_otziv{
+        &-items{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 135%;
+        }
+        &-1{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+        }
+        &-main{
+            gap: 64px;
+            padding-bottom: 72px;
+        }
+        &-mainleft{
+            gap: 64px;
+        }
+        &-12{
+            gap: 16px;
+        }
+        &-11{
+            gap: 16px;
+        }
+
+    }
+    .price{
+        padding-top: 64px;
+        padding-bottom: 64px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &__main{
+            margin-left: 0;
+        }
     }
     .grid_form{
         display: flex;
