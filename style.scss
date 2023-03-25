@@ -465,6 +465,12 @@ ul li:before {
             line-height: 135%;
             color: #000000;
         }
+        &-text1mob{
+            display: none;
+        }
+        &-text2mob{
+            display: none;
+        }
     }
     &_form{
         display: flex;

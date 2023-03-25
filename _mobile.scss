@@ -127,6 +127,7 @@
             }
             &_button{
                 width: 620px;
+                margin-bottom: 24px;
                 &-mob{
                     display: none;
                 }
@@ -142,12 +143,46 @@
         letter-spacing: -0.05px;
         font-feature-settings: "pnum" on, "lnum" on;
         color: #00AEFA;
+        
+        &_form-sign{
+            padding-top: 32px;
+        }
         &_skyeng{
             width: 40%;
 
         }
         &_text{
             padding-bottom: 26px;
+        }
+        &_kons-text1{
+            display: none;
+        }
+        &_kons-text2{
+            display: none;
+        }
+        &_kons-text1mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+        }
+        &_kons-text2mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
         }
         &_item{
             display: flex;
@@ -157,7 +192,15 @@
             justify-content: space-evenly;
         }
         &_kons{
-            display: none;
+            display: flex;
+            border-radius: 0%;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-left: 0;
+            width: auto;
+        }
+        &_form{
+            width: 560px;
         }
     }
     .how__about{
@@ -581,6 +624,7 @@
 
     }
     .about__kurs_otziv{
+        margin-top: 0;
         &-items{
             font-style: normal;
             font-weight: 400;
@@ -618,6 +662,37 @@
             margin-left: 0;
         }
     }
+    .question{
+        padding-bottom: 134px;
+        &__items{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            &_text-1{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 125%;
+                letter-spacing: -0.6px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &_text-2{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 145%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+        }
+
+    }
     .grid_form{
         display: flex;
         flex-wrap: wrap;
@@ -629,5 +704,8 @@
     }   
     .about__kurs_form-button{
         width: 100%;
+    }
+    .footer{
+        display: none;
     }
 }

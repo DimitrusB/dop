@@ -456,6 +456,12 @@ ul li:before {
   line-height: 135%;
   color: #000000;
 }
+.about__kurs_kons-text1mob {
+  display: none;
+}
+.about__kurs_kons-text2mob {
+  display: none;
+}
 .about__kurs_form {
   display: flex;
   flex-wrap: wrap;
@@ -1641,6 +1647,7 @@ ul li:before {
   }
   .programm__item_button {
     width: 620px;
+    margin-bottom: 24px;
   }
   .programm__item_button-mob {
     display: none;
@@ -1655,11 +1662,44 @@ ul li:before {
     font-feature-settings: "pnum" on, "lnum" on;
     color: #00AEFA;
   }
+  .about__kurs_form-sign {
+    padding-top: 32px;
+  }
   .about__kurs_skyeng {
     width: 40%;
   }
   .about__kurs_text {
     padding-bottom: 26px;
+  }
+  .about__kurs_kons-text1 {
+    display: none;
+  }
+  .about__kurs_kons-text2 {
+    display: none;
+  }
+  .about__kurs_kons-text1mob {
+    display: inline;
+    width: 560px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .about__kurs_kons-text2mob {
+    display: inline;
+    width: 560px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
   }
   .about__kurs_item {
     display: flex;
@@ -1669,7 +1709,15 @@ ul li:before {
     justify-content: space-evenly;
   }
   .about__kurs_kons {
-    display: none;
+    display: flex;
+    border-radius: 0%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    width: auto;
+  }
+  .about__kurs_form {
+    width: 560px;
   }
   .how__about {
     padding-top: 88px;
@@ -2081,6 +2129,9 @@ ul li:before {
   .how__about_kurses-items1 {
     width: 220px;
   }
+  .about__kurs_otziv {
+    margin-top: 0;
+  }
   .about__kurs_otziv-items {
     font-style: normal;
     font-weight: 400;
@@ -2116,6 +2167,36 @@ ul li:before {
   .price__main {
     margin-left: 0;
   }
+  .question {
+    padding-bottom: 134px;
+  }
+  .question__items {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .question__items_text-1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .question__items_text-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
   .grid_form {
     display: flex;
     flex-wrap: wrap;
@@ -2127,5 +2208,8 @@ ul li:before {
   }
   .about__kurs_form-button {
     width: 100%;
+  }
+  .footer {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
