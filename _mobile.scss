@@ -722,9 +722,9 @@
             &-items12{
                 font-size: 28px;
             }
-            &-items3{
-                display: none;                
-            }
+            // // &-items3{
+            // //     display: none;                
+            // }
             &-items{
                 max-width: 380px;
                 width: auto;
@@ -733,6 +733,29 @@
             &-items1{
                 width: 220px;
             }
+            &-img31{
+                position: relative;
+                width: 213.71px;
+                top: 36px;
+                left: 0;
+            }
+            &-imge1{
+                display:none;
+            }
+            &-imge1mob{
+                display: inline;
+                position: relative;
+                top: -40px;
+            }
+            &-imge2{
+                display: none;
+            }
+            &-imge2mob{
+                display: inline;
+                position: relative;
+                bottom: 100px;
+            }
+
         }
 
     }
@@ -785,6 +808,9 @@
             letter-spacing: -0.05px;
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
+            &_text{
+                width: 540px;
+            }
             &_text-1{
                 font-style: normal;
                 font-weight: 500;

@@ -1138,6 +1138,12 @@ ul li:before {
   flex-direction: column-reverse;
   align-items: flex-start;
 }
+.how__about_kurses-imge1mob {
+  display: none;
+}
+.how__about_kurses-imge2mob {
+  display: none;
+}
 .how__about_kurses-img31 {
   position: relative;
   top: -10px;
@@ -2383,9 +2389,6 @@ ul li:before {
   .how__about_kurses-items12 {
     font-size: 28px;
   }
-  .how__about_kurses-items3 {
-    display: none;
-  }
   .how__about_kurses-items {
     max-width: 380px;
     width: auto;
@@ -2393,6 +2396,28 @@ ul li:before {
   }
   .how__about_kurses-items1 {
     width: 220px;
+  }
+  .how__about_kurses-img31 {
+    position: relative;
+    width: 213.71px;
+    top: 36px;
+    left: 0;
+  }
+  .how__about_kurses-imge1 {
+    display: none;
+  }
+  .how__about_kurses-imge1mob {
+    display: inline;
+    position: relative;
+    top: -40px;
+  }
+  .how__about_kurses-imge2 {
+    display: none;
+  }
+  .how__about_kurses-imge2mob {
+    display: inline;
+    position: relative;
+    bottom: 100px;
   }
   .about__kurs_otziv {
     margin-top: 0;
@@ -2443,6 +2468,9 @@ ul li:before {
     letter-spacing: -0.05px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
+  }
+  .question__items_text {
+    width: 540px;
   }
   .question__items_text-1 {
     font-style: normal;

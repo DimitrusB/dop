@@ -1163,6 +1163,12 @@ ul li:before {
             flex-direction: column-reverse;
             align-items: flex-start;
         }
+        &-imge1mob{
+            display:none;
+        }
+        &-imge2mob{
+            display: none;
+        }
         &-img31{
             position: relative;
             top: -10px;
