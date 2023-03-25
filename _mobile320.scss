@@ -31,10 +31,17 @@
             color: #FFFFFF;
         }
         &_img11{
-            width: 356px;
+            display: none;
+        }
+        &_img21{
+            display: inline;
+        }
+        &_img22{
+            display: inline;
         }
         &_zero{
-            gap:7px;
+            align-items: center;
+            justify-content: space-between;
         }
         &_analiz{
             font-style: normal;
@@ -44,6 +51,7 @@
             letter-spacing: -0.6px;
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #FFFFFF;
+            max-width: 100%;
                 &-img{
                     display: none;
                 }

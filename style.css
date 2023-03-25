@@ -87,6 +87,12 @@ ul li:before {
 .header__top_navmob {
   display: none;
 }
+.header__top_img21 {
+  display: none;
+}
+.header__top_img22 {
+  display: none;
+}
 .header__top_text1 {
   font-style: normal;
   font-weight: 400;
@@ -2538,10 +2544,17 @@ ul li:before {
     color: #FFFFFF;
   }
   .header__top_img11 {
-    width: 356px;
+    display: none;
+  }
+  .header__top_img21 {
+    display: inline;
+  }
+  .header__top_img22 {
+    display: inline;
   }
   .header__top_zero {
-    gap: 7px;
+    align-items: center;
+    justify-content: space-between;
   }
   .header__top_analiz {
     font-style: normal;
@@ -2551,6 +2564,7 @@ ul li:before {
     letter-spacing: -0.6px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #FFFFFF;
+    max-width: 100%;
   }
   .header__top_analiz-img {
     display: none;
