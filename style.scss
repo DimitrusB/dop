@@ -1557,4 +1557,171 @@ ul li:before {
     transform: rotate(15deg);
     /*transform: matrix(0.98, 0.18, 0.18, 1.02, -3, -1); как вариант*/
 }
+.about__kursform{
+    &_kons{
+        max-width: 1160px;
+        background: #ECECEC;
+        border-radius: 20px;
+        padding-left: 40px;
+        padding-top: 32px;
+        margin-top: 67px;
+        padding-bottom: 32px;
+        
+        &-text1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+            padding-top: 40px;
+        }
+        &-text2{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            color: #000000;
+        }
+        &-text1mob{
+            display: none;
+        }
+        &-text2mob{
+            display: none;
+        }
+    }
+    &_form{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        gap: 8px;
+        padding-top: 32px;
+
+
+        &-input{
+            width: 264px;
+            height: 48px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            padding-left: 12px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-button{
+            width: 264px;
+            height: 48px;
+            background: #FCDE00;
+            border-radius: 8px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            text-align: center;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-sign{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            opacity: 0.4;
+        }
+    }
+}
+.about__kursform1{
+    display: none;
+    &_kons{
+        max-width: 1160px;
+        background: #ECECEC;
+        border-radius: 20px;
+        padding-left: 40px;
+        padding-top: 32px;
+        margin-top: 67px;
+        padding-bottom: 32px;
+        
+        &-text1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+            padding-top: 40px;
+        }
+        &-text2{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 135%;
+            color: #000000;
+        }
+        &-text1mob{
+            display: none;
+        }
+        &-text2mob{
+            display: none;
+        }
+    }
+    &_form{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        gap: 8px;
+        padding-top: 32px;
+
+
+        &-input{
+            width: 264px;
+            height: 48px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            padding-left: 12px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-button{
+            width: 264px;
+            height: 48px;
+            background: #FCDE00;
+            border-radius: 8px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            text-align: center;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &-sign{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            opacity: 0.4;
+        }
+    }
+}
 @import 'mobile';

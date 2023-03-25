@@ -1521,6 +1521,167 @@ ul li:before {
   /*transform: matrix(0.98, 0.18, 0.18, 1.02, -3, -1); как вариант*/
 }
 
+.about__kursform_kons {
+  max-width: 1160px;
+  background: #ECECEC;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-top: 32px;
+  margin-top: 67px;
+  padding-bottom: 32px;
+}
+.about__kursform_kons-text1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-bottom: 8px;
+  padding-top: 40px;
+}
+.about__kursform_kons-text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  color: #000000;
+}
+.about__kursform_kons-text1mob {
+  display: none;
+}
+.about__kursform_kons-text2mob {
+  display: none;
+}
+.about__kursform_form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 8px;
+  padding-top: 32px;
+}
+.about__kursform_form-input {
+  width: 264px;
+  height: 48px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding-left: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.about__kursform_form-button {
+  width: 264px;
+  height: 48px;
+  background: #FCDE00;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.about__kursform_form-sign {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  opacity: 0.4;
+}
+
+.about__kursform1 {
+  display: none;
+}
+.about__kursform1_kons {
+  max-width: 1160px;
+  background: #ECECEC;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-top: 32px;
+  margin-top: 67px;
+  padding-bottom: 32px;
+}
+.about__kursform1_kons-text1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-bottom: 8px;
+  padding-top: 40px;
+}
+.about__kursform1_kons-text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  color: #000000;
+}
+.about__kursform1_kons-text1mob {
+  display: none;
+}
+.about__kursform1_kons-text2mob {
+  display: none;
+}
+.about__kursform1_form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 8px;
+  padding-top: 32px;
+}
+.about__kursform1_form-input {
+  width: 264px;
+  height: 48px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding-left: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.about__kursform1_form-button {
+  width: 264px;
+  height: 48px;
+  background: #FCDE00;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.about__kursform1_form-sign {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  opacity: 0.4;
+}
+
 @media (max-width: 960px) {
   .center {
     padding-left: 10px;
@@ -1709,6 +1870,16 @@ ul li:before {
     justify-content: space-evenly;
   }
   .about__kurs_kons {
+    display: none;
+  }
+  .about__kurs_form {
+    width: 560px;
+  }
+  .about__kursform {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .about__kursform_kons {
     display: flex;
     border-radius: 0%;
     flex-wrap: wrap;
@@ -1716,8 +1887,108 @@ ul li:before {
     padding-left: 0;
     width: auto;
   }
-  .about__kurs_form {
+  .about__kursform_form {
+    width: auto;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+  }
+  .about__kursform_kons-text1 {
+    display: none;
+  }
+  .about__kursform_kons-text2 {
+    display: none;
+  }
+  .about__kursform_kons-text1mob {
+    display: inline;
     width: 560px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .about__kursform_kons-text2mob {
+    display: inline;
+    width: 560px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .about__kursform_form-input {
+    width: 560px;
+  }
+  .about__kursform_form-button {
+    width: 100%;
+  }
+  .about__kursform_form-sign {
+    padding-top: 32px;
+  }
+  .about__kursform1 {
+    padding-left: 0;
+    padding-right: 0;
+    display: inline;
+  }
+  .about__kursform1_kons {
+    display: flex;
+    border-radius: 0%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    width: auto;
+  }
+  .about__kursform1_form {
+    width: auto;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+  }
+  .about__kursform1_kons-text1 {
+    display: none;
+  }
+  .about__kursform1_kons-text2 {
+    display: none;
+  }
+  .about__kursform1_kons-text1mob {
+    display: inline;
+    width: 560px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .about__kursform1_kons-text2mob {
+    display: inline;
+    width: 560px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .about__kursform1_form-input {
+    width: 560px;
+  }
+  .about__kursform1_form-button {
+    width: 100%;
+  }
+  .about__kursform1_form-sign {
+    padding-top: 32px;
   }
   .how__about {
     padding-top: 88px;
@@ -1927,13 +2198,7 @@ ul li:before {
     padding-bottom: 32px;
   }
   .how__about_teachers-form {
-    width: 100%;
-    border-radius: 0%;
-    align-items: center;
-  }
-  .how__about_teachers-form-text1 {
-    padding-top: 32px;
-    width: 560px;
+    display: none;
   }
   .how__about_teachers-form-text2mob {
     display: inline;

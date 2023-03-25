@@ -192,16 +192,134 @@
             justify-content: space-evenly;
         }
         &_kons{
+            display:none;
+        }
+        &_form{
+            width: 560px;
+        }
+    }
+    .about__kursform{
+        padding-left: 0;
+        padding-right: 0;
+
+        &_kons{
             display: flex;
             border-radius: 0%;
             flex-wrap: wrap;
             justify-content: center;
             padding-left: 0;
             width: auto;
+
         }
         &_form{
+            width: auto;
+            flex-direction: column;
+            align-content: center;
+            align-items: flex-start;
+        }
+        &_kons-text1{
+            display: none;
+        }
+        &_kons-text2{
+            display: none;
+        }
+        &_kons-text1mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+        }
+        &_kons-text2mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+        }
+        &_form-input{
             width: 560px;
         }
+        &_form-button{
+            width: 100%;
+        }
+        &_form-sign{
+            padding-top: 32px;
+        }
+        
+
+    }
+    .about__kursform1{
+        padding-left: 0;
+        padding-right: 0;
+        display: inline;
+
+        &_kons{
+            display: flex;
+            border-radius: 0%;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-left: 0;
+            width: auto;
+
+        }
+        &_form{
+            width: auto;
+            flex-direction: column;
+            align-content: center;
+            align-items: flex-start;
+        }
+        &_kons-text1{
+            display: none;
+        }
+        &_kons-text2{
+            display: none;
+        }
+        &_kons-text1mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+        }
+        &_kons-text2mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+        }
+        &_form-input{
+            width: 560px;
+        }
+        &_form-button{
+            width: 100%;
+        }
+        &_form-sign{
+            padding-top: 32px;
+        }
+        
+
     }
     .how__about{
         padding-top: 88px;
@@ -417,13 +535,8 @@
                 padding-bottom: 32px;
             }
             &-form{
-                width: 100%;
-                border-radius: 0%;
-                align-items: center;
-                &-text1{
-                    padding-top: 32px;
-                    width: 560px;
-                }
+                display: none;
+                
                 &-text2mob{
                     display: inline;
                     width: 560px;
