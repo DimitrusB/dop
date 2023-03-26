@@ -60,4 +60,230 @@
                 }
         }
     }
+    .teachers{
+        &_other{
+            margin-top: 24px;
+            width: 300px;
+            height: 55px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 135%;
+            text-align: center;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #FF6D00;
+            &-img{
+                width: 69px;
+                height: auto;
+            }
+        }
+        &__exp{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 105%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-top: 24px;
+            &_snap{
+                display: inline;
+            }
+        }
+        &_cards{
+            padding-top: 0%;
+            gap: 0;
+        }
+        &__card{
+            align-items: flex-start;
+            gap: 0;
+            flex-wrap: nowrap;
+            flex-direction: row-reverse;
+            justify-content: flex-start;
+            padding-top: 24px;
+            &_imge{
+                width: 72px;
+                position: relative;
+                left: -50px;
+            }
+            &_imge1{
+                width: 72px;
+                position: relative;
+                left: -20px;
+            }
+            &_item{
+                height: auto;
+                width: 100%;
+            }
+            &_name{
+                width: 220px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 125%;
+                letter-spacing: -0.6px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &_spec{
+                width: 220px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 145%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &_who{
+                width: 220px;
+                &-href{
+                    color: #000000;
+                }
+            }
+            &_link{
+                width: max-content;
+            }
+        }
+    }
+    .programm{
+        margin-top: 40px;
+        min-height: auto;
+        &__item{
+            padding-top: 24px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 105%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #FFFFFF;
+            &-isled{
+                padding-top: 16px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+                letter-spacing: -0.6px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #FFFFFF;
+            }
+            &_chekbox{
+                position: relative;
+                top: 7px;
+                left: 2px;
+                width: 14px;
+                height: auto;
+            }
+            &_col_bar{
+                display: none;
+            }
+            &_col-color1{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 145%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #FFFFFF;
+            }
+            &_col-color11{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 145%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #FFFFFF;
+            }
+            &_col_navik-pad{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 145%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #FFFFFF;
+            }
+            &_col_checker-img{
+                height: 298px;
+            }
+            &_button{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 135%;
+                text-align: center;
+                letter-spacing: -0.6px;
+                width: 300px;
+                height: 55px;
+                margin-top: 24px;
+                margin-bottom: 32px;
+            }
+        }
+    }
+    .about{
+        &__kurs{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 105%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-top: 40px;
+            padding-bottom: 16px;
+            &_item{
+                gap: 12px;
+            }
+            &_text{
+                display: none;
+            }
+            &_textmob{
+                display: inline;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 135%;
+                letter-spacing: -0.6px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &_schema-img{
+                width: 134px;
+
+            }
+            &_schema{
+                height: 150px;
+                &-text{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 135%;
+                    width: 116px;
+                    height: auto;
+                }
+                &-text1{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 135%;
+                    width: 116px;
+                    height: auto;
+                }
+                &-text2{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 135%;
+                    width: 116px;
+                    height: auto;
+                }
+                &-text3{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 135%;
+                    width: 116px;
+                    height: auto;
+                }
+            }
+        }
+    }
 }

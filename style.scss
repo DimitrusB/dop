@@ -163,6 +163,9 @@ ul li:before {
         font-feature-settings: 'pnum' on, 'lnum' on;
         color: #000000;
         padding-top: 56px;
+        &_snap{
+            display: none;
+        }
     }
     &_cards{
         display: flex;
@@ -228,6 +231,11 @@ ul li:before {
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
             padding-top: 16px;
+            &-href{
+                text-decoration: none;
+               color: #FF6D00;
+
+            }
         }
         &_link{
             padding-top: 24px ;
@@ -417,6 +425,9 @@ ul li:before {
         font-feature-settings: 'pnum' on, 'lnum' on;
         color: #000000;
         }
+    &_textmob{
+        display: none;
+    }
     &_schema{
         padding-top: 21px;
         display: flex;

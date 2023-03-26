@@ -79,6 +79,9 @@
             letter-spacing: -0.05px;
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
+            &_snap{
+                display: none;
+            }
         }
     }
     .programm{
@@ -153,6 +156,9 @@
         }
         &_text{
             padding-bottom: 26px;
+        }
+        &_textmob{
+            display: none;
         }
         &_kons-text1{
             display: none;

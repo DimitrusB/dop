@@ -171,6 +171,9 @@ ul li:before {
   color: #000000;
   padding-top: 56px;
 }
+.teachers__exp_snap {
+  display: none;
+}
 .teachers_cards {
   display: flex;
   flex-wrap: wrap;
@@ -234,6 +237,10 @@ ul li:before {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
   padding-top: 16px;
+}
+.teachers__card_who-href {
+  text-decoration: none;
+  color: #FF6D00;
 }
 .teachers__card_link {
   padding-top: 24px;
@@ -412,6 +419,9 @@ ul li:before {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+.about__kurs_textmob {
+  display: none;
 }
 .about__kurs_schema {
   padding-top: 21px;
@@ -1774,6 +1784,9 @@ ul li:before {
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
   }
+  .teachers__exp_snap {
+    display: none;
+  }
   .programm__item {
     font-style: normal;
     font-weight: 400;
@@ -1843,6 +1856,9 @@ ul li:before {
   }
   .about__kurs_text {
     padding-bottom: 26px;
+  }
+  .about__kurs_textmob {
+    display: none;
   }
   .about__kurs_kons-text1 {
     display: none;
@@ -2571,5 +2587,227 @@ ul li:before {
   }
   .header__top_analiz-imgmob {
     display: inline;
+  }
+  .teachers_other {
+    margin-top: 24px;
+    width: 300px;
+    height: 55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FF6D00;
+  }
+  .teachers_other-img {
+    width: 69px;
+    height: auto;
+  }
+  .teachers__exp {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-top: 24px;
+  }
+  .teachers__exp_snap {
+    display: inline;
+  }
+  .teachers_cards {
+    padding-top: 0%;
+    gap: 0;
+  }
+  .teachers__card {
+    align-items: flex-start;
+    gap: 0;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding-top: 24px;
+  }
+  .teachers__card_imge {
+    width: 72px;
+    position: relative;
+    left: -50px;
+  }
+  .teachers__card_imge1 {
+    width: 72px;
+    position: relative;
+    left: -20px;
+  }
+  .teachers__card_item {
+    height: auto;
+    width: 100%;
+  }
+  .teachers__card_name {
+    width: 220px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .teachers__card_spec {
+    width: 220px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .teachers__card_who {
+    width: 220px;
+  }
+  .teachers__card_who-href {
+    color: #000000;
+  }
+  .teachers__card_link {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .programm {
+    margin-top: 40px;
+    min-height: auto;
+  }
+  .programm__item {
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .programm__item-isled {
+    padding-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .programm__item_chekbox {
+    position: relative;
+    top: 7px;
+    left: 2px;
+    width: 14px;
+    height: auto;
+  }
+  .programm__item_col_bar {
+    display: none;
+  }
+  .programm__item_col-color1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .programm__item_col-color11 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .programm__item_col_navik-pad {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .programm__item_col_checker-img {
+    height: 298px;
+  }
+  .programm__item_button {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: -0.6px;
+    width: 300px;
+    height: 55px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+  .about__kurs {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-top: 40px;
+    padding-bottom: 16px;
+  }
+  .about__kurs_item {
+    gap: 12px;
+  }
+  .about__kurs_text {
+    display: none;
+  }
+  .about__kurs_textmob {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .about__kurs_schema-img {
+    width: 134px;
+  }
+  .about__kurs_schema {
+    height: 150px;
+  }
+  .about__kurs_schema-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    width: 116px;
+    height: auto;
+  }
+  .about__kurs_schema-text1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    width: 116px;
+    height: auto;
+  }
+  .about__kurs_schema-text2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    width: 116px;
+    height: auto;
+  }
+  .about__kurs_schema-text3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    width: 116px;
+    height: auto;
   }
 }/*# sourceMappingURL=style.css.map */
