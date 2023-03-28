@@ -286,4 +286,213 @@
             }
         }
     }
+    .about__kursform2{
+        display: inline;
+        &_kons{
+            margin-top: 0;
+            padding-bottom: 16px;
+        }
+        &_kons-text1mob{
+            display: block;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &_kons-text2mob{
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+        &_form-input{
+            width: 100%;
+        }
+        &_form-button{
+            width: 100%;
+        }
+    }
+    .how__about{
+        padding-top: 40px;
+        &_text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 105%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 16px;
+            &-comand{
+                max-width: 300px;
+            }
+            &-comand1{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 135%;
+                letter-spacing: -0.6px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+                padding-bottom: 0;
+            }
+            &-comand1320{
+                display: inline;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 145%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #AD61FF;
+            }
+            &-comand2{
+                display: none;
+            }
+            &-comand2320{
+                display: inline;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 145%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+        }
+        &_imgmob{
+            width: 300px;
+        }
+        &_imgpoints{
+            display: inline;
+            width: 48px;
+        }
+    }
+    .how__about_item{
+        &-content-textmob{
+            display: none;
+        }
+        &-content-text1mob{
+            display: none;
+        }
+        &-content-textmob320{
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 135%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-top: 16px;
+        }
+        &-content-text1mob320{
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 145%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+    }
+    .how__about_home{
+        padding-top: 40px;
+         &-img{
+            width: 100%;
+            height: 218px;  
+         }
+         &-img-1{
+            width: 260px;
+            height: 145px;
+         }
+         &-img-2{
+            width: 260px;
+            height: 145px;
+            position: relative;
+            top: -69px;
+            left: -42px;
+         }
+         &-content{
+            padding-top: 16px;
+            width: auto;
+            &-textmob{
+                display: none;
+            }
+            &-textmob320{
+                display: block;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 135%;
+                letter-spacing: -0.6px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &-text1mob{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 145%;
+            }
+            &-text2mob{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 135%;
+            }
+         }
+    }
+    .how__about_feedback{
+        padding-top: 40px;
+        gap: 16px;
+        &-img{
+            width: 100%;
+            height: auto;
+        }
+        &_items{
+            flex-direction: column;
+        }
+        &-crown{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: flex-end;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-content{
+            &-text1mob{
+                display: none;
+            }
+            &-text1mob320{
+                display: block;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 135%;
+                letter-spacing: -0.6px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &-text3{
+                width: 300px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 145%;
+            }
+            &-crown{
+                width: 139px;
+                height: auto;
+            }
+        }
+    }
 }
