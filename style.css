@@ -1804,6 +1804,10 @@ ul li:before {
   opacity: 0.4;
 }
 
+.link320 {
+  display: none;
+}
+
 @media (max-width: 960px) {
   .center {
     padding-left: 10px;
@@ -2648,6 +2652,9 @@ ul li:before {
   .footer {
     display: none;
   }
+  .lin320 {
+    display: none;
+  }
 }
 @media (max-width: 639px) {
   .center {
@@ -2937,6 +2944,7 @@ ul li:before {
   .about__kursform2_kons {
     margin-top: 0;
     padding-bottom: 16px;
+    border-radius: 0%;
   }
   .about__kursform2_kons-text1mob {
     display: block;
@@ -2975,7 +2983,7 @@ ul li:before {
     letter-spacing: -0.05px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
-    padding-bottom: 16px;
+    padding-bottom: 24px;
   }
   .how__about_text-comand {
     max-width: 300px;
@@ -3135,5 +3143,61 @@ ul li:before {
   .how__about_feedback-content-crown {
     width: 139px;
     height: auto;
+  }
+  .how__about_kurs {
+    margin-bottom: 32px;
+  }
+  .how__about_kurs-text1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+  }
+  .how__about_kurs-text2 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .how__about_kurs-text2mob {
+    display: none;
+  }
+  .how__about_teachers_card_item {
+    width: 204px;
+  }
+  .how__about_teachers_card {
+    flex-direction: row-reverse;
+  }
+  .how__about_teachers_card_name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+  }
+  .how__about_teachers_card_spec {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .how__about_teachers_card_who {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .how__about_teachers_card_link {
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 300px;
+  }
+  .how__about_teachers_card_link-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .how__about_teachers_cardimge {
+    width: 72px;
+  }
+  .link320 {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */

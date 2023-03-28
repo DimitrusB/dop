@@ -291,6 +291,7 @@
         &_kons{
             margin-top: 0;
             padding-bottom: 16px;
+            border-radius: 0%;
         }
         &_kons-text1mob{
             display: block;
@@ -329,7 +330,7 @@
             letter-spacing: -0.05px;
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
-            padding-bottom: 16px;
+            padding-bottom: 24px;
             &-comand{
                 max-width: 300px;
             }
@@ -494,5 +495,63 @@
                 height: auto;
             }
         }
+    }
+    .how__about_kurs{
+        margin-bottom: 32px;
+        &-text1{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 135%;
+        }
+        &-text2{
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 145%;
+        }
+        &-text2mob{
+            display: none;
+        }
+    }
+    .how__about_teachers{
+        &_card_item{
+            width: 204px;
+        }
+        &_card{
+            flex-direction: row-reverse;
+        }
+        &_card_name{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 125%;
+        }
+        &_card_spec{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 145%;
+        }
+        &_card_who{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 145%;
+        }
+        &_card_link{
+            width: max-content;
+            max-width: 300px;
+
+        }
+        &_card_link-link{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 145%;
+        }
+        &_cardimge{
+            width: 72px;
+        }
+    }
+    .link320{
+        display: block;
     }
 }
