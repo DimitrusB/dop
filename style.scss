@@ -992,6 +992,9 @@ ul li:before {
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
         }
+        &-text1mob320{
+            display: none;
+        }
         &-text1mob{
             display:none
         }

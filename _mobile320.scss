@@ -590,7 +590,59 @@
             padding-top: 0;
         }
     }
-    
+    .how__about_work{
+        &-text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 105%;
+            padding-top: 32px;
+        }
+        &-content{
+            padding-top: 24px;
+            width: 100%;
+            flex-direction: row;
+            display: flex;
+            max-height: 490px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            &-text1mob{
+                display: none;
+            }
+            &-text1mob320{
+                width: 268px;
+                display: block;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 145%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &-img{
+                width: 24px;
+                height: auto;
+            }
+            &-text2{
+                padding-top: 16px;
+                width: 170px;
+                position: relative;
+                left: -28px;
+            }
+            &-img1mob{
+                left: 173px;
+                width: 118px;
+                height: auto;
+                top: -121px;
+            }
+            &-img1mobm{
+                display: block;
+                height: 10px;
+                clip-path: inset(-1350% 0% 0%);
+            }     
+        }
+    }
     .link320{
         display: block;
     }
