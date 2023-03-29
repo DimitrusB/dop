@@ -1032,6 +1032,9 @@ ul li:before {
   letter-spacing: -0.05px;
   color: #6000C7;
 }
+.how__about_work-stud-textpmob {
+  display: none;
+}
 .how__about_work-stud-textright {
   margin-bottom: 16px;
   font-style: normal;
@@ -2472,6 +2475,9 @@ ul li:before {
     gap: 20px;
     padding-bottom: 40px;
   }
+  .how__about_work-textpmob {
+    display: none;
+  }
   .how__about_work-stud-right {
     width: 378px;
     gap: 24px;
@@ -3299,6 +3305,76 @@ ul li:before {
     height: 10px;
     -webkit-clip-path: inset(-1350% 0% 0%);
             clip-path: inset(-1350% 0% 0%);
+  }
+  .how__about_work-stud-right {
+    max-width: 280px;
+    width: 100%;
+    gap: 16px;
+  }
+  .how__about_work-stud-content {
+    flex-direction: column;
+  }
+  .how__about_work-stud-text {
+    padding-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_work-stud-textright {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    width: 100%;
+  }
+  .how__about_work-stud-textright1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    width: 100%;
+  }
+  .how__about_work-stud-text2 {
+    padding-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_work-stud-textp {
+    display: none;
+  }
+  .how__about_work-stud-textpmob {
+    display: inline;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #6000C7;
+  }
+  .how__about_work-stud-textrightp {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #6000C7;
   }
   .link320 {
     display: block;
