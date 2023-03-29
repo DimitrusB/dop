@@ -1035,6 +1035,9 @@ ul li:before {
 .how__about_work-stud-textpmob {
   display: none;
 }
+.how__about_work-stud-text2mob {
+  display: none;
+}
 .how__about_work-stud-textright {
   margin-bottom: 16px;
   font-style: normal;
@@ -2478,6 +2481,9 @@ ul li:before {
   .how__about_work-textpmob {
     display: none;
   }
+  .how__about_work-text2mob {
+    display: none;
+  }
   .how__about_work-stud-right {
     width: 378px;
     gap: 24px;
@@ -3254,6 +3260,9 @@ ul li:before {
   .about__kursform1_form-sign {
     padding-top: 0;
   }
+  .how__about_work {
+    padding-bottom: 10px;
+  }
   .how__about_work-text {
     font-style: normal;
     font-weight: 400;
@@ -3313,6 +3322,9 @@ ul li:before {
   }
   .how__about_work-stud-content {
     flex-direction: column;
+    gap: 0;
+    padding-bottom: 15px;
+    padding-top: 10px;
   }
   .how__about_work-stud-text {
     padding-bottom: 16px;
@@ -3334,6 +3346,9 @@ ul li:before {
     color: #000000;
     width: 100%;
   }
+  .how__about_work-stud-textrightdiv {
+    margin-bottom: 24px;
+  }
   .how__about_work-stud-textright1 {
     font-style: normal;
     font-weight: 400;
@@ -3345,6 +3360,10 @@ ul li:before {
     width: 100%;
   }
   .how__about_work-stud-text2 {
+    display: none;
+  }
+  .how__about_work-stud-text2mob {
+    display: block;
     padding-bottom: 0;
     font-style: normal;
     font-weight: 500;
@@ -3358,7 +3377,9 @@ ul li:before {
     display: none;
   }
   .how__about_work-stud-textpmob {
-    display: inline;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 16px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
