@@ -729,4 +729,55 @@
     .link320{
         display: block;
     }
+    .how__about_metod{
+        height: 874px;
+        &-1{
+            border-radius: 0;
+        }
+        &-text{
+            display: none;
+        }
+        &-text320{
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 105%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 16px;
+        }
+        &-text1320{
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 135%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 16px;
+        }
+    }
+    .how__about_kurses{
+        grid-template-areas:
+        "b c"
+        "a a";
+        &-items{
+            margin-left: 0;
+            grid-template-areas: 
+            "d" 
+            "e";
+        }
+        &-items22{
+            padding-left: 0;
+        }
+        &-imge1{
+            display: block;
+            position: relative;
+            top: 812px;
+            left: -214px;
+        }
+    }
 }

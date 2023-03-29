@@ -1113,6 +1113,12 @@ ul li:before {
   color: #000000;
   padding-bottom: 38px;
 }
+.how__about_metod-text320 {
+  display: none;
+}
+.how__about_metod-text1320 {
+  display: none;
+}
 .how__about_metod-spisok {
   max-width: 528px;
   font-style: normal;
@@ -2515,6 +2521,12 @@ ul li:before {
     letter-spacing: -0.05px;
     padding-bottom: 32px;
   }
+  .how__about_metod-text320 {
+    display: none;
+  }
+  .how__about_metod-text1320 {
+    display: none;
+  }
   .how__about_metod-2 {
     bottom: 780px;
     left: 352px;
@@ -3399,5 +3411,52 @@ ul li:before {
   }
   .link320 {
     display: block;
+  }
+  .how__about_metod {
+    height: 874px;
+  }
+  .how__about_metod-1 {
+    border-radius: 0;
+  }
+  .how__about_metod-text {
+    display: none;
+  }
+  .how__about_metod-text320 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 16px;
+  }
+  .how__about_metod-text1320 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 16px;
+  }
+  .how__about_kurses {
+    grid-template-areas: "b c" "a a";
+  }
+  .how__about_kurses-items {
+    margin-left: 0;
+    grid-template-areas: "d" "e";
+  }
+  .how__about_kurses-items22 {
+    padding-left: 0;
+  }
+  .how__about_kurses-imge1 {
+    display: block;
+    position: relative;
+    top: 812px;
+    left: -214px;
   }
 }/*# sourceMappingURL=style.css.map */
