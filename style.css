@@ -1830,6 +1830,18 @@ ul li:before {
   display: none;
 }
 
+.kursesimg320-1 {
+  display: none;
+}
+
+.kursesimg320-2 {
+  display: none;
+}
+
+.kursesimg320-3 {
+  display: none;
+}
+
 @media (max-width: 960px) {
   .center {
     padding-left: 10px;
@@ -2698,6 +2710,15 @@ ul li:before {
   .about__kursform320 {
     display: none;
   }
+  .kursesimg320-1 {
+    display: none;
+  }
+  .kursesimg320-2 {
+    display: none;
+  }
+  .kursesimg320-3 {
+    display: none;
+  }
 }
 @media (max-width: 639px) {
   .center {
@@ -3420,10 +3441,38 @@ ul li:before {
     display: block;
   }
   .how__about_metod {
-    height: 874px;
+    height: 1200px;
+  }
+  .how__about_metod-spisok {
+    max-width: 100%;
   }
   .how__about_metod-1 {
     border-radius: 0;
+    max-width: 100%;
+  }
+  .how__about_metod-2-img1 {
+    left: -293px;
+    bottom: -787px;
+  }
+  .how__about_metod-2-img2 {
+    top: 762px;
+    right: 267px;
+  }
+  .how__about_metod-2-img3 {
+    bottom: -822px;
+    right: 490px;
+  }
+  .how__about_metod-2-img4 {
+    right: 220px;
+    bottom: -673px;
+  }
+  .how__about_metod-2-img5 {
+    bottom: -714px;
+    left: -439px;
+  }
+  .how__about_metod-2-img6 {
+    bottom: -643px;
+    left: -231px;
   }
   .how__about_metod-text {
     display: none;
@@ -3451,6 +3500,8 @@ ul li:before {
     padding-bottom: 16px;
   }
   .how__about_kurses {
+    display: block;
+    padding-top: 32px;
     grid-template-areas: "b c" "a a";
   }
   .how__about_kurses-items {
@@ -3460,11 +3511,24 @@ ul li:before {
   .how__about_kurses-items22 {
     padding-left: 0;
   }
+  .how__about_kurses-items3 {
+    display: none;
+  }
   .how__about_kurses-imge1 {
     display: block;
     position: relative;
     top: 812px;
     left: -214px;
+  }
+  .kursesimg320-1 {
+    display: block;
+  }
+  .kursesimg320-2 {
+    display: block;
+    width: 303.53px;
+  }
+  .kursesimg320-3 {
+    display: block;
   }
   .about__kursform {
     display: none;
@@ -3477,7 +3541,7 @@ ul li:before {
     background: #ECECEC;
     border-radius: 0;
     padding-top: 32px;
-    margin-top: 67px;
+    margin-top: 0;
     padding-bottom: 16px;
   }
   .about__kursform320_kons-text1 {
@@ -3647,5 +3711,60 @@ ul li:before {
     letter-spacing: -0.05px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
+  }
+  .question {
+    padding-bottom: 32px;
+  }
+  .question__items {
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 16px;
+  }
+  .question__items_text-1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .question__items_text-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .question__items_text {
+    width: 100%;
+    padding-bottom: 24px;
+    padding-right: 0;
+  }
+  .footer {
+    display: block;
+  }
+  .footer__up {
+    padding-bottom: 0;
+    gap: 24px;
+  }
+  .footer__href_down {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+  }
+  .footer__down {
+    flex-direction: column-reverse;
+  }
+  .footer__content_down {
+    padding-top: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
