@@ -87,6 +87,12 @@ ul li:before {
 .header__top_navmob {
   display: none;
 }
+.header__top_img21 {
+  display: none;
+}
+.header__top_img22 {
+  display: none;
+}
 .header__top_text1 {
   font-style: normal;
   font-weight: 400;
@@ -165,6 +171,9 @@ ul li:before {
   color: #000000;
   padding-top: 56px;
 }
+.teachers__exp_snap {
+  display: none;
+}
 .teachers_cards {
   display: flex;
   flex-wrap: wrap;
@@ -228,6 +237,10 @@ ul li:before {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
   padding-top: 16px;
+}
+.teachers__card_who-href {
+  text-decoration: none;
+  color: #FF6D00;
 }
 .teachers__card_link {
   padding-top: 24px;
@@ -407,6 +420,9 @@ ul li:before {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
 }
+.about__kurs_textmob {
+  display: none;
+}
 .about__kurs_schema {
   padding-top: 21px;
   display: flex;
@@ -455,6 +471,12 @@ ul li:before {
   font-size: 32px;
   line-height: 135%;
   color: #000000;
+}
+.about__kurs_kons-text1mob {
+  display: none;
+}
+.about__kurs_kons-text2mob {
+  display: none;
 }
 .about__kurs_form {
   display: flex;
@@ -519,6 +541,12 @@ ul li:before {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
   padding-bottom: 64px;
+}
+.how__about_text-comand1320 {
+  display: none;
+}
+.how__about_text-comand2320 {
+  display: none;
 }
 .how__about_text-comandmain {
   padding-top: 32px;
@@ -596,6 +624,12 @@ ul li:before {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
 }
+.how__about_item-content-textmob320 {
+  display: none;
+}
+.how__about_item-content-text1mob320 {
+  display: none;
+}
 .how__about_item-content-textmob {
   display: none;
 }
@@ -624,6 +658,12 @@ ul li:before {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
 }
+.how__about_home-content_textmob {
+  display: none;
+}
+.how__about_home-content-textmob320 {
+  display: none;
+}
 .how__about_home-content-text1 {
   font-style: normal;
   font-weight: 400;
@@ -633,6 +673,9 @@ ul li:before {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
 }
+.how__about_home-content-text1mob {
+  display: none;
+}
 .how__about_home-content-text2 {
   font-style: normal;
   font-weight: 400;
@@ -641,6 +684,9 @@ ul li:before {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #AD61FF;
+}
+.how__about_home-content-text2mob {
+  display: none;
 }
 .how__about_home-img {
   width: 760px;
@@ -677,6 +723,12 @@ ul li:before {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+.how__about_feedback-content-text1mob {
+  display: none;
+}
+.how__about_feedback-content-text1mob320 {
+  display: none;
 }
 .how__about_feedback-content-text2 {
   font-style: normal;
@@ -734,6 +786,12 @@ ul li:before {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+.how__about_kurs-textcol {
+  background-color: #E8BEFC;
+}
+.how__about_kurs-text2mob {
+  display: none;
 }
 
 .grid_form {
@@ -806,7 +864,7 @@ ul li:before {
 }
 .how__about_teachers-form {
   grid-column: span 4;
-  max-width: 360px;
+  width: 360px;
   background: #ECECEC;
   border-radius: 20px;
   display: flex;
@@ -816,7 +874,7 @@ ul li:before {
   align-content: center;
 }
 .how__about_teachers-form-text1 {
-  max-width: 280px;
+  width: 280px;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -826,7 +884,7 @@ ul li:before {
   color: #000000;
 }
 .how__about_teachers-form-text2 {
-  max-width: 280px;
+  width: 280px;
   margin-top: 16px;
   font-style: normal;
   font-weight: 400;
@@ -835,6 +893,9 @@ ul li:before {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+.how__about_teachers-form-text2mob {
+  display: none;
 }
 .how__about_teachers-form-text3 {
   max-width: 231px;
@@ -894,6 +955,12 @@ ul li:before {
   top: -165px;
   left: -60px;
 }
+.how__about_work-content-img1mob {
+  display: none;
+}
+.how__about_work-content-img1mobm {
+  display: none;
+}
 .how__about_work-content-text1 {
   font-style: normal;
   font-weight: 400;
@@ -902,6 +969,12 @@ ul li:before {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+.how__about_work-content-text1mob320 {
+  display: none;
+}
+.how__about_work-content-text1mob {
+  display: none;
 }
 .how__about_work-content-text2 {
   font-style: normal;
@@ -958,6 +1031,12 @@ ul li:before {
   line-height: 135%;
   letter-spacing: -0.05px;
   color: #6000C7;
+}
+.how__about_work-stud-textpmob {
+  display: none;
+}
+.how__about_work-stud-text2mob {
+  display: none;
 }
 .how__about_work-stud-textright {
   margin-bottom: 16px;
@@ -1034,6 +1113,12 @@ ul li:before {
   color: #000000;
   padding-bottom: 38px;
 }
+.how__about_metod-text320 {
+  display: none;
+}
+.how__about_metod-text1320 {
+  display: none;
+}
 .how__about_metod-spisok {
   max-width: 528px;
   font-style: normal;
@@ -1089,7 +1174,6 @@ ul li:before {
 .how__about_kurses-items {
   grid-area: a;
   width: 560px;
-  max-height: 459px;
   display: grid;
   grid-template-areas: "d e";
   justify-content: start;
@@ -1102,6 +1186,12 @@ ul li:before {
   flex-wrap: wrap;
   flex-direction: column-reverse;
   align-items: flex-start;
+}
+.how__about_kurses-imge1mob {
+  display: none;
+}
+.how__about_kurses-imge2mob {
+  display: none;
 }
 .how__about_kurses-img31 {
   position: relative;
@@ -1212,7 +1302,7 @@ ul li:before {
   padding-bottom: 151px;
 }
 .price__main {
-  max-width: 560px;
+  width: 560px;
   margin-left: 320px;
   background: #FFFFFF;
   border-radius: 20px;
@@ -1358,6 +1448,120 @@ ul li:before {
   color: #000000;
 }
 
+.question {
+  padding-bottom: 80px;
+}
+.question__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.question__content_main {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.question__items {
+  padding-top: 64px;
+  padding-bottom: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 115%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.question__items_text {
+  width: 460px;
+  padding-right: 140px;
+  padding-bottom: 40px;
+}
+.question__items_text-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.question__items_text-2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.footer__up {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 24px;
+}
+.footer__down {
+  background-color: #AD61FF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+.footer__content_up {
+  display: flex;
+  align-items: center;
+}
+.footer__content_up1 {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.footer__content_down {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+.footer__content_down1 {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+.footer__href_up {
+  display: flex;
+  gap: 16px;
+}
+.footer__href_down {
+  display: flex;
+  gap: 16px;
+}
+
 .del {
   position: relative;
 }
@@ -1370,6 +1574,272 @@ ul li:before {
   height: 50%;
   transform: rotate(15deg);
   /*transform: matrix(0.98, 0.18, 0.18, 1.02, -3, -1); как вариант*/
+}
+
+.about__kursform_kons {
+  max-width: 1160px;
+  background: #ECECEC;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-top: 32px;
+  margin-top: 67px;
+  padding-bottom: 32px;
+}
+.about__kursform_kons-text1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-bottom: 8px;
+  padding-top: 40px;
+}
+.about__kursform_kons-text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  color: #000000;
+}
+.about__kursform_kons-text1mob {
+  display: none;
+}
+.about__kursform_kons-text2mob {
+  display: none;
+}
+.about__kursform_form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 8px;
+  padding-top: 32px;
+}
+.about__kursform_form-input {
+  width: 264px;
+  height: 48px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding-left: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.about__kursform_form-button {
+  width: 264px;
+  height: 48px;
+  background: #FCDE00;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.about__kursform_form-sign {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  opacity: 0.4;
+}
+
+.about__kursform1 {
+  display: none;
+}
+.about__kursform1_kons {
+  max-width: 1160px;
+  background: #ECECEC;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-top: 32px;
+  margin-top: 67px;
+  padding-bottom: 32px;
+}
+.about__kursform1_kons-text1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-bottom: 8px;
+  padding-top: 40px;
+}
+.about__kursform1_kons-text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  color: #000000;
+}
+.about__kursform1_kons-text1mob {
+  display: none;
+}
+.about__kursform1_kons-text2mob {
+  display: none;
+}
+.about__kursform1_kons-text2mob320 {
+  display: none;
+}
+.about__kursform1_form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 8px;
+  padding-top: 32px;
+}
+.about__kursform1_form-input {
+  width: 264px;
+  height: 48px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding-left: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.about__kursform1_form-button {
+  width: 264px;
+  height: 48px;
+  background: #FCDE00;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.about__kursform1_form-sign {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  opacity: 0.4;
+}
+
+.about__kursform2 {
+  display: none;
+}
+.about__kursform2_kons {
+  max-width: 1160px;
+  background: #ECECEC;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-top: 32px;
+  margin-top: 67px;
+  padding-bottom: 32px;
+}
+.about__kursform2_kons-text1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-bottom: 8px;
+  padding-top: 40px;
+}
+.about__kursform2_kons-text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  color: #000000;
+}
+.about__kursform2_kons-text1mob {
+  display: none;
+}
+.about__kursform2_kons-text2mob {
+  display: none;
+}
+.about__kursform2_form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 8px;
+  padding-top: 32px;
+}
+.about__kursform2_form-input {
+  width: 264px;
+  height: 48px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding-left: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.about__kursform2_form-button {
+  width: 264px;
+  height: 48px;
+  background: #FCDE00;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.about__kursform2_form-sign {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  opacity: 0.4;
+}
+
+.link320 {
+  display: none;
+}
+
+.about__kursform320 {
+  display: none;
+}
+
+.kursesimg320-1 {
+  display: none;
+}
+
+.kursesimg320-2 {
+  display: none;
+}
+
+.kursesimg320-3 {
+  display: none;
 }
 
 @media (max-width: 960px) {
@@ -1452,6 +1922,9 @@ ul li:before {
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
   }
+  .teachers__exp_snap {
+    display: none;
+  }
   .programm__item {
     font-style: normal;
     font-weight: 400;
@@ -1498,6 +1971,7 @@ ul li:before {
   }
   .programm__item_button {
     width: 620px;
+    margin-bottom: 24px;
   }
   .programm__item_button-mob {
     display: none;
@@ -1512,11 +1986,47 @@ ul li:before {
     font-feature-settings: "pnum" on, "lnum" on;
     color: #00AEFA;
   }
+  .about__kurs_form-sign {
+    padding-top: 32px;
+  }
   .about__kurs_skyeng {
     width: 40%;
   }
   .about__kurs_text {
     padding-bottom: 26px;
+  }
+  .about__kurs_textmob {
+    display: none;
+  }
+  .about__kurs_kons-text1 {
+    display: none;
+  }
+  .about__kurs_kons-text2 {
+    display: none;
+  }
+  .about__kurs_kons-text1mob {
+    display: inline;
+    width: 560px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .about__kurs_kons-text2mob {
+    display: inline;
+    width: 560px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
   }
   .about__kurs_item {
     display: flex;
@@ -1526,6 +2036,130 @@ ul li:before {
     justify-content: space-evenly;
   }
   .about__kurs_kons {
+    display: none;
+  }
+  .about__kurs_form {
+    width: 560px;
+  }
+  .about__kursform {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .about__kursform_kons {
+    display: flex;
+    border-radius: 0%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    width: auto;
+  }
+  .about__kursform_form {
+    width: auto;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+  }
+  .about__kursform_kons-text1 {
+    display: none;
+  }
+  .about__kursform_kons-text2 {
+    display: none;
+  }
+  .about__kursform_kons-text1mob {
+    display: inline;
+    width: 560px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .about__kursform_kons-text2mob {
+    display: inline;
+    width: 560px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .about__kursform_form-input {
+    width: 560px;
+  }
+  .about__kursform_form-button {
+    width: 100%;
+  }
+  .about__kursform_form-sign {
+    padding-top: 32px;
+  }
+  .about__kursform1 {
+    padding-left: 0;
+    padding-right: 0;
+    display: inline;
+  }
+  .about__kursform1_kons {
+    display: flex;
+    border-radius: 0%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    width: auto;
+  }
+  .about__kursform1_form {
+    width: auto;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+  }
+  .about__kursform1_kons-text1 {
+    display: none;
+  }
+  .about__kursform1_kons-text2 {
+    display: none;
+  }
+  .about__kursform1_kons-text2mob320 {
+    display: none;
+  }
+  .about__kursform1_kons-text1mob {
+    display: inline;
+    width: 560px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .about__kursform1_kons-text2mob {
+    display: inline;
+    width: 560px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .about__kursform1_form-input {
+    width: 560px;
+  }
+  .about__kursform1_form-button {
+    width: 100%;
+  }
+  .about__kursform1_form-sign {
+    padding-top: 32px;
+  }
+  .about__kursform2 {
     display: none;
   }
   .how__about {
@@ -1539,6 +2173,13 @@ ul li:before {
     letter-spacing: -0.05px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
+    padding-bottom: 35px;
+  }
+  .how__about_text-comand1320 {
+    display: none;
+  }
+  .how__about_text-comand2320 {
+    display: none;
   }
   .how__about_text-comandmain {
     flex-direction: column-reverse;
@@ -1577,6 +2218,12 @@ ul li:before {
   .how__about_item-content-text1 {
     display: none;
   }
+  .how__about_item-content-textmob320 {
+    display: none;
+  }
+  .how__about_item-content-text1mob320 {
+    display: none;
+  }
   .how__about_item-content-textmob {
     padding-bottom: 16px;
     display: block;
@@ -1597,5 +2244,1527 @@ ul li:before {
     letter-spacing: -0.05px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
+  }
+  .how__about_home {
+    flex-direction: column-reverse;
+  }
+  .how__about_home-text {
+    display: none;
+  }
+  .how__about_home-content {
+    padding-top: 24px;
+    width: 460px;
+  }
+  .how__about_home-content-text {
+    display: none;
+  }
+  .how__about_home-content-textmob {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_home-content-textmob320 {
+    display: none;
+  }
+  .how__about_home-content-text1 {
+    display: none;
+  }
+  .how__about_home-content-text1mob {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_home-content-text2 {
+    display: none;
+  }
+  .how__about_home-content-text2mob {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #AD61FF;
+  }
+  .how__about_home-img {
+    width: auto;
+    height: 512px;
+  }
+  .how__about_home-img-1 {
+    width: 540.05px;
+    height: 349.16px;
+  }
+  .how__about_home-img-2 {
+    width: 540.05px;
+    height: 349.16px;
+  }
+  .how__about_feedback-img {
+    width: 620px;
+    height: 505px;
+  }
+  .how__about_feedback-crown {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+  }
+  .how__about_feedback-content {
+    max-width: 380px;
+  }
+  .how__about_feedback-content-text1 {
+    display: none;
+  }
+  .how__about_feedback-content-text1mob {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_feedback-content-text1mob320 {
+    display: none;
+  }
+  .how__about_feedback-content-text3 {
+    width: 140px;
+    text-align: center;
+  }
+  .how__about_feedback-content-crown {
+    position: inherit;
+    padding-left: 0%;
+  }
+  .how__about_feedback_items {
+    display: flex;
+  }
+  .how__about_kurs {
+    margin-top: 40px;
+    justify-content: flex-start;
+    margin-bottom: 88px;
+    border-radius: 0%;
+  }
+  .how__about_kurs-text1 {
+    max-width: 420px;
+    padding-bottom: 24px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+  }
+  .how__about_kurs-text2 {
+    display: none;
+  }
+  .how__about_kurs-text2mob {
+    display: inline;
+    max-width: 688px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_kurs-textcol {
+    background-color: #E8BEFC;
+  }
+  .how__about_teachers_card_item {
+    width: 436px;
+  }
+  .how__about_teachers-form-s {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .how__about_teachers-form {
+    display: none;
+  }
+  .how__about_teachers-form-text2mob {
+    display: inline;
+    width: 560px;
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_teachers-form-text2 {
+    display: none;
+  }
+  .how__about_teachers-form-text3 {
+    padding-bottom: 32px;
+    opacity: 0.4;
+    max-width: 400px;
+  }
+  .how__about_teachers_card {
+    gap: 24px;
+  }
+  .how__about_teachers-content {
+    padding-bottom: 40px;
+  }
+  .how__about_teachers_card_name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_teachers_card_who {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_work {
+    padding-bottom: 48px;
+  }
+  .how__about_work-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #6000C7;
+  }
+  .how__about_work-content-text1 {
+    width: 540px;
+  }
+  .how__about_work-content {
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .how__about_work-content-img {
+    width: 60px;
+    height: 49px;
+    top: auto;
+  }
+  .how__about_work-content-text2 {
+    padding-top: 64px;
+    width: 249px;
+  }
+  .how__about_work-content-img1 {
+    display: none;
+  }
+  .how__about_work-content-img1mobm {
+    display: block;
+    height: 177px;
+    -webkit-clip-path: inset(-100% 0% 0%);
+            clip-path: inset(-100% 0% 0%);
+  }
+  .how__about_work-content-img1mob {
+    display: inline;
+    width: 270px;
+    height: 485px;
+    position: relative;
+    top: -168px;
+    left: 349px;
+  }
+  .how__about_work-content-text1mob320 {
+    display: none;
+  }
+  .how__about_work-content-text1 {
+    display: none;
+  }
+  .how__about_work-content-text1mob {
+    width: 540px;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_work-stud-content {
+    gap: 20px;
+    padding-bottom: 40px;
+  }
+  .how__about_work-textpmob {
+    display: none;
+  }
+  .how__about_work-text2mob {
+    display: none;
+  }
+  .how__about_work-stud-right {
+    width: 378px;
+    gap: 24px;
+  }
+  .how__about_work-stud-textright {
+    width: 378px;
+  }
+  .how__about_work-stud-textright1 {
+    width: 378px;
+  }
+  .how__about_work-stud-textrightdiv {
+    margin-bottom: 8px;
+  }
+  .how__about_work-stud-text2 {
+    padding-bottom: 834px;
+  }
+  .how__about_work-stud-textrightp {
+    margin-top: 0;
+  }
+  .how__about_metod {
+    margin-top: 35px;
+  }
+  .how__about_metod-text {
+    width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    padding-bottom: 32px;
+  }
+  .how__about_metod-text320 {
+    display: none;
+  }
+  .how__about_metod-text1320 {
+    display: none;
+  }
+  .how__about_metod-2 {
+    bottom: 780px;
+    left: 352px;
+  }
+  .how__about_metod-2-img1 {
+    height: auto;
+    width: 154.04px;
+    left: 80px;
+  }
+  .how__about_metod-2-img2 {
+    height: auto;
+    width: 165.59px;
+    top: 95px;
+    right: 64px;
+  }
+  .how__about_metod-2-img3 {
+    height: auto;
+    width: 86.99px;
+    bottom: -149px;
+    right: 262px;
+  }
+  .how__about_metod-2-img4 {
+    height: auto;
+    width: 84.36px;
+    right: -160px;
+    bottom: -3px;
+  }
+  .how__about_metod-2-img5 {
+    height: auto;
+    width: 197.1px;
+    bottom: -52px;
+    left: -65px;
+  }
+  .how__about_metod-2-img6 {
+    height: auto;
+    width: 102.22px;
+    bottom: -44px;
+    left: -136px;
+  }
+  .how__about_kurses {
+    justify-content: start;
+  }
+  .how__about_kurses-items12 {
+    font-size: 28px;
+  }
+  .how__about_kurses-items {
+    max-width: 380px;
+    width: auto;
+    margin-left: 20px;
+  }
+  .how__about_kurses-items1 {
+    width: 220px;
+  }
+  .how__about_kurses-img31 {
+    position: relative;
+    width: 213.71px;
+    top: 36px;
+    left: 0;
+  }
+  .how__about_kurses-imge1 {
+    display: none;
+  }
+  .how__about_kurses-imge1mob {
+    display: inline;
+    position: relative;
+    top: -40px;
+  }
+  .how__about_kurses-imge2 {
+    display: none;
+  }
+  .how__about_kurses-imge2mob {
+    display: inline;
+    position: relative;
+    bottom: 100px;
+  }
+  .about__kurs_otziv {
+    margin-top: 0;
+  }
+  .about__kurs_otziv-items {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135%;
+  }
+  .about__kurs_otziv-1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+  }
+  .about__kurs_otziv-main {
+    gap: 64px;
+    padding-bottom: 72px;
+  }
+  .about__kurs_otziv-mainleft {
+    gap: 64px;
+  }
+  .about__kurs_otziv-12 {
+    gap: 16px;
+  }
+  .about__kurs_otziv-11 {
+    gap: 16px;
+  }
+  .price {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .price__main {
+    margin-left: 0;
+  }
+  .question {
+    padding-bottom: 134px;
+  }
+  .question__items {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .question__items_text {
+    width: 540px;
+  }
+  .question__items_text-1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .question__items_text-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .grid_form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 0%;
+  }
+  .about__kurs_form-input {
+    width: 560px;
+  }
+  .about__kurs_form-button {
+    width: 100%;
+  }
+  .footer {
+    display: none;
+  }
+  .lin320 {
+    display: none;
+  }
+  .about__kursform320 {
+    display: none;
+  }
+  .kursesimg320-1 {
+    display: none;
+  }
+  .kursesimg320-2 {
+    display: none;
+  }
+  .kursesimg320-3 {
+    display: none;
+  }
+}
+@media (max-width: 639px) {
+  .center {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .emez {
+    left: 84px;
+    top: 22px;
+    width: 55%;
+  }
+  .header__top_text1 {
+    width: 258px;
+  }
+  .header__top_text2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 60%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .header__top_text11 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .header__top_img11 {
+    display: none;
+  }
+  .header__top_img21 {
+    display: inline;
+  }
+  .header__top_img22 {
+    display: inline;
+  }
+  .header__top_zero {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__top_analiz {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+    max-width: 100%;
+  }
+  .header__top_analiz-img {
+    display: none;
+  }
+  .header__top_analiz-imgmob {
+    display: inline;
+  }
+  .teachers_other {
+    margin-top: 24px;
+    width: 300px;
+    height: 55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FF6D00;
+  }
+  .teachers_other-img {
+    width: 69px;
+    height: auto;
+  }
+  .teachers__exp {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-top: 24px;
+  }
+  .teachers__exp_snap {
+    display: inline;
+  }
+  .teachers_cards {
+    padding-top: 0%;
+    gap: 0;
+  }
+  .teachers__card {
+    align-items: flex-start;
+    gap: 0;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding-top: 24px;
+  }
+  .teachers__card_imge {
+    width: 72px;
+    position: relative;
+    left: -50px;
+  }
+  .teachers__card_imge1 {
+    width: 72px;
+    position: relative;
+    left: -20px;
+  }
+  .teachers__card_item {
+    height: auto;
+    width: 100%;
+  }
+  .teachers__card_name {
+    width: 220px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .teachers__card_spec {
+    width: 220px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .teachers__card_who {
+    width: 220px;
+  }
+  .teachers__card_who-href {
+    color: #000000;
+  }
+  .teachers__card_link {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .programm {
+    margin-top: 40px;
+    min-height: auto;
+  }
+  .programm__item {
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .programm__item-isled {
+    padding-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .programm__item_chekbox {
+    position: relative;
+    top: 7px;
+    left: 2px;
+    width: 14px;
+    height: auto;
+  }
+  .programm__item_col_bar {
+    display: none;
+  }
+  .programm__item_col-color1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .programm__item_col-color11 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .programm__item_col_navik-pad {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #FFFFFF;
+  }
+  .programm__item_col_checker-img {
+    height: 298px;
+  }
+  .programm__item_button {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: -0.6px;
+    width: 300px;
+    height: 55px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+  .about__kurs {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-top: 40px;
+    padding-bottom: 16px;
+  }
+  .about__kurs_item {
+    gap: 12px;
+  }
+  .about__kurs_text {
+    display: none;
+  }
+  .about__kurs_textmob {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .about__kurs_schema-img {
+    width: 134px;
+  }
+  .about__kurs_schema {
+    height: 150px;
+  }
+  .about__kurs_schema-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    width: 116px;
+    height: auto;
+  }
+  .about__kurs_schema-text1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    width: 116px;
+    height: auto;
+  }
+  .about__kurs_schema-text2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    width: 116px;
+    height: auto;
+  }
+  .about__kurs_schema-text3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    width: 116px;
+    height: auto;
+  }
+  .about__kursform2 {
+    display: inline;
+  }
+  .about__kursform2_kons {
+    margin-top: 0;
+    padding-bottom: 16px;
+    border-radius: 0%;
+  }
+  .about__kursform2_kons-text1mob {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .about__kursform2_kons-text2mob {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .about__kursform2_form-input {
+    width: 100%;
+  }
+  .about__kursform2_form-button {
+    width: 100%;
+  }
+  .how__about {
+    padding-top: 40px;
+  }
+  .how__about_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 24px;
+  }
+  .how__about_text-comand {
+    max-width: 300px;
+  }
+  .how__about_text-comand1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 0;
+  }
+  .how__about_text-comand1320 {
+    display: inline;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #AD61FF;
+  }
+  .how__about_text-comand2 {
+    display: none;
+  }
+  .how__about_text-comand2320 {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_imgmob {
+    width: 300px;
+  }
+  .how__about_imgpoints {
+    display: inline;
+    width: 48px;
+  }
+  .how__about_item-content-textmob {
+    display: none;
+  }
+  .how__about_item-content-text1mob {
+    display: none;
+  }
+  .how__about_item-content-textmob320 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-top: 16px;
+  }
+  .how__about_item-content-text1mob320 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_home {
+    padding-top: 40px;
+  }
+  .how__about_home-img {
+    width: 100%;
+    height: 218px;
+  }
+  .how__about_home-img-1 {
+    width: 260px;
+    height: 145px;
+  }
+  .how__about_home-img-2 {
+    width: 260px;
+    height: 145px;
+    position: relative;
+    top: -69px;
+    left: -42px;
+  }
+  .how__about_home-content {
+    padding-top: 16px;
+    width: auto;
+  }
+  .how__about_home-content-textmob {
+    display: none;
+  }
+  .how__about_home-content-textmob320 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_home-content-text1mob {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .how__about_home-content-text2mob {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+  }
+  .how__about_feedback {
+    padding-top: 40px;
+    gap: 16px;
+  }
+  .how__about_feedback-img {
+    width: 100%;
+    height: auto;
+  }
+  .how__about_feedback_items {
+    flex-direction: column;
+  }
+  .how__about_feedback-crown {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+  }
+  .how__about_feedback-content-text1mob {
+    display: none;
+  }
+  .how__about_feedback-content-text1mob320 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_feedback-content-text3 {
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .how__about_feedback-content-crown {
+    width: 139px;
+    height: auto;
+  }
+  .how__about_kurs {
+    margin-bottom: 32px;
+  }
+  .how__about_kurs-text1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+  }
+  .how__about_kurs-text2 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .how__about_kurs-text2mob {
+    display: none;
+  }
+  .how__about_teachers_card_item {
+    width: 204px;
+  }
+  .how__about_teachers_card {
+    flex-direction: row-reverse;
+  }
+  .how__about_teachers_card_name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+  }
+  .how__about_teachers_card_spec {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .how__about_teachers_card_who {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .how__about_teachers_card_link {
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 300px;
+  }
+  .how__about_teachers_card_link-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .how__about_teachers_cardimge {
+    width: 72px;
+  }
+  .about__kursform1 {
+    display: contents;
+  }
+  .about__kursform1_kons {
+    margin-top: 0;
+    padding-bottom: 16px;
+    border-radius: 0%;
+  }
+  .about__kursform1_kons-text1mob {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    width: 100%;
+  }
+  .about__kursform1_kons-text2mob {
+    display: none;
+  }
+  .about__kursform1_kons-text2mob320 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .about__kursform1_form-input {
+    width: 300px;
+    border: none;
+  }
+  .about__kursform1_form-sign {
+    padding-top: 0;
+  }
+  .how__about_work {
+    padding-bottom: 10px;
+  }
+  .how__about_work-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    padding-top: 32px;
+  }
+  .how__about_work-content {
+    padding-top: 24px;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    max-height: 490px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .how__about_work-content-text1mob {
+    display: none;
+  }
+  .how__about_work-content-text1mob320 {
+    width: 268px;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_work-content-img {
+    width: 24px;
+    height: auto;
+  }
+  .how__about_work-content-text2 {
+    padding-top: 16px;
+    width: 170px;
+    position: relative;
+    left: -28px;
+  }
+  .how__about_work-content-img1mob {
+    left: 173px;
+    width: 118px;
+    height: auto;
+    top: -121px;
+  }
+  .how__about_work-content-img1mobm {
+    display: block;
+    height: 10px;
+    -webkit-clip-path: inset(-1350% 0% 0%);
+            clip-path: inset(-1350% 0% 0%);
+  }
+  .how__about_work-stud-right {
+    max-width: 280px;
+    width: 100%;
+    gap: 16px;
+  }
+  .how__about_work-stud-content {
+    flex-direction: column;
+    gap: 0;
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+  .how__about_work-stud-text {
+    padding-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_work-stud-textright {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    width: 100%;
+  }
+  .how__about_work-stud-textrightdiv {
+    margin-bottom: 24px;
+  }
+  .how__about_work-stud-textright1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    width: 100%;
+  }
+  .how__about_work-stud-text2 {
+    display: none;
+  }
+  .how__about_work-stud-text2mob {
+    display: block;
+    padding-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .how__about_work-stud-textp {
+    display: none;
+  }
+  .how__about_work-stud-textpmob {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #6000C7;
+  }
+  .how__about_work-stud-textrightp {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #6000C7;
+  }
+  .link320 {
+    display: block;
+  }
+  .how__about_metod {
+    height: 1200px;
+  }
+  .how__about_metod-spisok {
+    max-width: 100%;
+  }
+  .how__about_metod-1 {
+    border-radius: 0;
+    max-width: 100%;
+  }
+  .how__about_metod-2-img1 {
+    left: -293px;
+    bottom: -787px;
+  }
+  .how__about_metod-2-img2 {
+    top: 762px;
+    right: 267px;
+  }
+  .how__about_metod-2-img3 {
+    bottom: -822px;
+    right: 490px;
+  }
+  .how__about_metod-2-img4 {
+    right: 220px;
+    bottom: -673px;
+  }
+  .how__about_metod-2-img5 {
+    bottom: -714px;
+    left: -439px;
+  }
+  .how__about_metod-2-img6 {
+    bottom: -643px;
+    left: -231px;
+  }
+  .how__about_metod-text {
+    display: none;
+  }
+  .how__about_metod-text320 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 16px;
+  }
+  .how__about_metod-text1320 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 16px;
+  }
+  .how__about_kurses {
+    display: block;
+    padding-top: 32px;
+    grid-template-areas: "b c" "a a";
+  }
+  .how__about_kurses-items {
+    margin-left: 0;
+    grid-template-areas: "d" "e";
+  }
+  .how__about_kurses-items22 {
+    padding-left: 0;
+  }
+  .how__about_kurses-items3 {
+    display: none;
+  }
+  .how__about_kurses-imge1 {
+    display: block;
+    position: relative;
+    top: 812px;
+    left: -214px;
+  }
+  .kursesimg320-1 {
+    display: block;
+  }
+  .kursesimg320-2 {
+    display: block;
+    width: 303.53px;
+  }
+  .kursesimg320-3 {
+    display: block;
+  }
+  .about__kursform {
+    display: none;
+  }
+  .about__kursform320 {
+    display: block;
+  }
+  .about__kursform320_kons {
+    max-width: 1160px;
+    background: #ECECEC;
+    border-radius: 0;
+    padding-top: 32px;
+    margin-top: 0;
+    padding-bottom: 16px;
+  }
+  .about__kursform320_kons-text1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .about__kursform320_kons-text2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .about__kursform320_form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 8px;
+    padding-top: 24px;
+  }
+  .about__kursform320_form-input {
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding-left: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .about__kursform320_form-button {
+    width: 100%;
+    height: 48px;
+    background: #FCDE00;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .about__kursform320_form-sign {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    opacity: 0.4;
+    padding-top: 8px;
+    padding-bottom: 16px;
+  }
+  .about__kurs_otziv-items {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #6000C7;
+  }
+  .about__kurs_otziv-320 {
+    width: 24px;
+    height: 19.68px;
+  }
+  .about__kurs_otziv-11 {
+    flex-wrap: nowrap;
+  }
+  .about__kurs_otziv-12 {
+    flex-wrap: nowrap;
+  }
+  .about__kurs_otziv-1 {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .price {
+    background: none;
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+  .price__main {
+    width: 100%;
+  }
+  .price__main_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .price__main_text11 {
+    width: 224px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .price__main_text12 {
+    width: 224px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .price__main_text13 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .price__main_text14 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+  .price__form {
+    margin-left: 0;
+    padding-bottom: 0;
+  }
+  .price__form-text1 {
+    padding-bottom: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .price__form-tetx2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .question {
+    padding-bottom: 32px;
+  }
+  .question__items {
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 16px;
+  }
+  .question__items_text-1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .question__items_text-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .question__items_text {
+    width: 100%;
+    padding-bottom: 24px;
+    padding-right: 0;
+  }
+  .footer {
+    display: block;
+  }
+  .footer__up {
+    padding-bottom: 0;
+    gap: 24px;
+  }
+  .footer__href_down {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+  }
+  .footer__down {
+    flex-direction: column-reverse;
+  }
+  .footer__content_down {
+    padding-top: 24px;
   }
 }/*# sourceMappingURL=style.css.map */

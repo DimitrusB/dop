@@ -10,6 +10,7 @@
         width: 47%;
         height: 72%;
     }
+
     .header__top{
         min-height: 736px;
         &_nav{
@@ -78,6 +79,9 @@
             letter-spacing: -0.05px;
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
+            &_snap{
+                display: none;
+            }
         }
     }
     .programm{
@@ -126,6 +130,7 @@
             }
             &_button{
                 width: 620px;
+                margin-bottom: 24px;
                 &-mob{
                     display: none;
                 }
@@ -141,12 +146,49 @@
         letter-spacing: -0.05px;
         font-feature-settings: "pnum" on, "lnum" on;
         color: #00AEFA;
+        
+        &_form-sign{
+            padding-top: 32px;
+        }
         &_skyeng{
             width: 40%;
 
         }
         &_text{
             padding-bottom: 26px;
+        }
+        &_textmob{
+            display: none;
+        }
+        &_kons-text1{
+            display: none;
+        }
+        &_kons-text2{
+            display: none;
+        }
+        &_kons-text1mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+        }
+        &_kons-text2mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
         }
         &_item{
             display: flex;
@@ -156,8 +198,140 @@
             justify-content: space-evenly;
         }
         &_kons{
+            display:none;
+        }
+        &_form{
+            width: 560px;
+        }
+    }
+    .about__kursform{
+        padding-left: 0;
+        padding-right: 0;
+
+        &_kons{
+            display: flex;
+            border-radius: 0%;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-left: 0;
+            width: auto;
+
+        }
+        &_form{
+            width: auto;
+            flex-direction: column;
+            align-content: center;
+            align-items: flex-start;
+        }
+        &_kons-text1{
             display: none;
         }
+        &_kons-text2{
+            display: none;
+        }
+        &_kons-text1mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+        }
+        &_kons-text2mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+        }
+        &_form-input{
+            width: 560px;
+        }
+        &_form-button{
+            width: 100%;
+        }
+        &_form-sign{
+            padding-top: 32px;
+        }
+        
+
+    }
+    .about__kursform1{
+        padding-left: 0;
+        padding-right: 0;
+        display: inline;
+
+        &_kons{
+            display: flex;
+            border-radius: 0%;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-left: 0;
+            width: auto;
+
+        }
+        &_form{
+            width: auto;
+            flex-direction: column;
+            align-content: center;
+            align-items: flex-start;
+        }
+        &_kons-text1{
+            display: none;
+        }
+        &_kons-text2{
+            display: none;
+        }
+        &_kons-text2mob320{
+            display: none;
+        }
+        &_kons-text1mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 125%;
+            letter-spacing: -0.6px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+        }
+        &_kons-text2mob{
+            display: inline;
+            width: 560px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            padding-bottom: 8px;
+        }
+        &_form-input{
+            width: 560px;
+        }
+        &_form-button{
+            width: 100%;
+        }
+        &_form-sign{
+            padding-top: 32px;
+        }
+        
+
+    }
+    .about__kursform2{
+        display: none;
     }
     .how__about{
         padding-top: 88px;
@@ -169,6 +343,13 @@
             letter-spacing: -0.05px;
             font-feature-settings: 'pnum' on, 'lnum' on;
             color: #000000;
+            padding-bottom: 35px;
+            &-comand1320{
+                display: none;
+            }
+            &-comand2320{
+                display: none;
+            }
             &-comandmain{
                 flex-direction: column-reverse;
             }
@@ -207,6 +388,12 @@
             &-text1{
                 display: none;
             }
+            &-textmob320{
+                display: none;
+            }
+            &-text1mob320{
+                display: none;
+            }
             &-textmob{
                 padding-bottom: 16px;
                 display: block;
@@ -230,6 +417,494 @@
             }
 
         }
+        &_home{
+            flex-direction: column-reverse;
+            &-text{
+                display: none;
+            }
+            &-content{
+                padding-top: 24px;
+                width: 460px;
+                &-text{
+                    display: none;
+                }
+                &-textmob{
+                    display: inline;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 135%;
+                    letter-spacing: -0.05px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #000000;
+                }
+                &-textmob320{
+                    display: none;
+                }
+                &-text1{
+                    display: none;
+                }
+                &-text1mob{
+                    display: inline;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 145%;
+                    letter-spacing: -0.05px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #000000;
+                }
+                &-text2{
+                    display: none;
+                }
+                &-text2mob{
+                    display: inline;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 135%;
+                    letter-spacing: -0.05px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #AD61FF;
+                }
+            }
+            &-img{
+                width: auto;
+                height: 512px;
+            }
+            &-img-1{
+                width: 540.05px;
+                height: 349.16px;
+            }
+            &-img-2{
+                width: 540.05px;
+                height: 349.16px;       
+            }
+        }
+        &_feedback{
+            &-img{
+                width: 620px;
+                height: 505px;
+            }
+            &-crown{
+                display: flex;
+                flex-wrap: wrap;
+                align-content: flex-start;
+                justify-content: flex-end;
+            }
+            &-content{
+                max-width: 380px;
+                &-text1{
+                    display: none;
+                }
+                &-text1mob{
+                    display: inline;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 135%;
+                    letter-spacing: -0.05px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #000000;
+                }
+                &-text1mob320{
+                    display: none;
+                }
+                &-text3{
+                    width: 140px;
+                    text-align: center;
+                }
+                &-crown{
+                    position: inherit;
+                    padding-left: 0%;
+                }
 
+            }
+           &_items{
+            display: flex;
+           }
+        }
+        &_kurs{
+            margin-top: 40px;
+            justify-content: flex-start;
+            margin-bottom: 88px;
+            border-radius:0%;
+
+            &-text1{
+                max-width: 420px;
+                padding-bottom: 24px;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+            }
+            &-text2{
+                display: none;
+            }
+            &-text2mob{
+                display: inline;
+                max-width: 688px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &-textcol{
+                background-color: #E8BEFC;
+            }
+        }
+        &_teachers{
+            &_card_item{
+                width: 436px;
+            }
+            &-form-s{
+                padding-top: 32px;
+                padding-bottom: 32px;
+            }
+            &-form{
+                display: none;
+                
+                &-text2mob{
+                    display: inline;
+                    width: 560px;
+                    margin-top: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 130%;
+                    letter-spacing: -0.05px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #000000;
+                    }
+                &-text2{
+                    display: none;
+                    }
+                    &-text3{
+                        padding-bottom: 32px;
+                        opacity: 0.4;
+                        max-width: 400px;
+                    }
+            }
+
+            &_card{
+                gap: 24px;
+            }
+            &-content{
+                padding-bottom: 40px;
+            }
+            &_card_name{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 125%;
+                letter-spacing: -0.6px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &_card_who{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+        }
+        &_work{
+            padding-bottom: 48px;
+        &-text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #6000C7;
+        }
+        &-content-text1{
+            width: 540px;
+        }
+        &-content{
+            flex-direction: column;
+            align-content: space-between;
+            &-img{
+                width: 60px;
+                height: 49px;
+                top: auto;
+            }
+            &-text2{
+                padding-top: 64px;
+                width: 249px;
+            }
+            &-img1{
+                display: none;
+            }
+            &-img1mobm{
+                display: block;
+                height: 177px;
+                clip-path: inset(-100% 0% 0%);
+            }
+            &-img1mob{
+                display: inline;
+                width: 270px;
+                height: 485px;
+                position: relative;
+                top: -168px;
+                left: 349px;
+            }
+            &-text1mob320{
+                display: none;
+            }
+            &-text1{
+                display: none;
+            }
+            &-text1mob{
+                width: 540px;
+                display: block;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+        }
+        &-stud-content{
+            gap:20px;
+            padding-bottom: 40px;
+        }
+        &-textpmob{
+            display: none;
+        }
+        &-text2mob{
+            display: none;
+        }
+        &-stud-right{
+            width: 378px;
+            gap: 24px;
+        }
+        &-stud-textright{
+            width: 378px;
+        }
+        &-stud-textright1{
+            width: 378px;
+        }
+        &-stud-textrightdiv{
+            margin-bottom: 8px;
+        }
+        &-stud-text2{
+            padding-bottom: 834px;
+        }
+        &-stud-textrightp{
+            margin-top: 0;
+        }
+    }
+        &_metod{
+            margin-top: 35px;
+            &-text{
+                width: 300px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 135%;
+                letter-spacing: -0.05px;
+                padding-bottom: 32px;
+            }
+            &-text320{
+                display: none;
+            }
+            &-text1320{
+                display: none;
+            }
+            &-2{
+                bottom: 780px;
+                left: 352px;
+                &-img1{
+                    height:auto ;
+                    width: 154.04px;
+                    left: 80px;
+                }
+                &-img2{
+                    height: auto;
+                    width: 165.59px;
+                    top: 95px;
+                    right: 64px;
+                }
+                &-img3{
+                    height:auto ;
+                    width: 86.99px;
+                    bottom: -149px;
+                    right: 262px;
+                }
+                &-img4{
+                    height:auto ;
+                    width: 84.36px;
+                    right: -160px;
+                    bottom: -3px;
+                }
+                &-img5{
+                    height:auto ;
+                    width: 197.1px;
+                    bottom: -52px;
+                    left: -65px;
+                }
+                &-img6{
+                    height:auto ;
+                    width: 102.22px;
+                    bottom: -44px;
+                    left: -136px;
+                }
+            }
+            
+        }
+        &_kurses{
+            justify-content: start;
+            &-items12{
+                font-size: 28px;
+            }
+            // // &-items3{
+            // //     display: none;                
+            // }
+            &-items{
+                max-width: 380px;
+                width: auto;
+                margin-left: 20px;
+            }
+            &-items1{
+                width: 220px;
+            }
+            &-img31{
+                position: relative;
+                width: 213.71px;
+                top: 36px;
+                left: 0;
+            }
+            &-imge1{
+                display:none;
+            }
+            &-imge1mob{
+                display: inline;
+                position: relative;
+                top: -40px;
+            }
+            &-imge2{
+                display: none;
+            }
+            &-imge2mob{
+                display: inline;
+                position: relative;
+                bottom: 100px;
+            }
+
+        }
+
+    }
+    .about__kurs_otziv{
+        margin-top: 0;
+        &-items{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 135%;
+        }
+        &-1{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+        }
+        &-main{
+            gap: 64px;
+            padding-bottom: 72px;
+        }
+        &-mainleft{
+            gap: 64px;
+        }
+        &-12{
+            gap: 16px;
+        }
+        &-11{
+            gap: 16px;
+        }
+
+    }
+    .price{
+        padding-top: 64px;
+        padding-bottom: 64px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &__main{
+            margin-left: 0;
+        }
+    }
+    .question{
+        padding-bottom: 134px;
+        &__items{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 135%;
+            letter-spacing: -0.05px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            &_text{
+                width: 540px;
+            }
+            &_text-1{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 125%;
+                letter-spacing: -0.6px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+            &_text-2{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 145%;
+                letter-spacing: -0.05px;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #000000;
+            }
+        }
+
+    }
+    .grid_form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 0%;
+    }
+    .about__kurs_form-input{
+        width: 560px;
+    }   
+    .about__kurs_form-button{
+        width: 100%;
+    }
+    .footer{
+        display: none;
+    }
+    .lin320{
+        display: none;
+    }
+    .about__kursform320{
+        display: none;
+    }
+    .kursesimg320-1{
+        display: none;
+    }
+    .kursesimg320-2{
+        display: none;
+    }
+    .kursesimg320-3{
+        display: none;
     }
 }
